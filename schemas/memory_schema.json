@@ -1,0 +1,8 @@
+{
+  "memory_id": "uuid4 string",
+  "text": "raw memory content",
+  "source": "where this memory came from",
+  "type": "ingest | query | answer | reflection",
+  "timestamp": "UTC ISO-8601",
+  "embedding_ref": "null (Phase-1 placeholder)"
+}

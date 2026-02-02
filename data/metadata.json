@@ -1,0 +1,18 @@
+[
+  {
+    "memory_id": "dd503670-2f7d-4256-8386-f8b7f26b3093",
+    "text": "hello im your creator deba-glitch",
+    "source": "manual_cli",
+    "type": "reflection",
+    "timestamp": "2026-02-02T09:14:01.893195",
+    "embedding_ref": null
+  },
+  {
+    "memory_id": "4ac6f7fc-23c7-426a-8a44-6d46a119967f",
+    "text": "your pourpose is help me read big pdf etc and tell me the crust of that information",
+    "source": "manual_cli",
+    "type": "reflection",
+    "timestamp": "2026-02-02T09:14:44.086468",
+    "embedding_ref": null
+  }
+]
