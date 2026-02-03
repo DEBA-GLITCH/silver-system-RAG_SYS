@@ -14,5 +14,13 @@
     "type": "reflection",
     "timestamp": "2026-02-02T09:14:44.086468",
     "embedding_ref": null
+  },
+  {
+    "memory_id": "842b0af2-19e6-4fc7-b402-9bdb97107911",
+    "text": "food delivery startup failed logistics",
+    "source": "manual_cli",
+    "type": "reflection",
+    "timestamp": "2026-02-03T18:55:20.119223",
+    "embedding_ref": null
   }
 ]
