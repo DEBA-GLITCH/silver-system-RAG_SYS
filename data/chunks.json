@@ -1,0 +1,18 @@
+[
+  {
+    "chunk_id": "2dba35e2-c638-4eb3-92dd-b44918cee191",
+    "memory_id": "dd503670-2f7d-4256-8386-f8b7f26b3093",
+    "chunk_index": 0,
+    "chunk_text": "hello im your creator deba-glitch",
+    "source": "manual_cli",
+    "created_at": "2026-02-03T07:55:49.662113"
+  },
+  {
+    "chunk_id": "eae988e4-27d9-43ff-b266-79e371b36d05",
+    "memory_id": "4ac6f7fc-23c7-426a-8a44-6d46a119967f",
+    "chunk_index": 0,
+    "chunk_text": "your pourpose is help me read big pdf etc and tell me the crust of that information",
+    "source": "manual_cli",
+    "created_at": "2026-02-03T07:55:49.662146"
+  }
+]
