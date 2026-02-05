@@ -20,10 +20,16 @@ class Chunker:
 
     def load_memories(self) -> List[Dict]:
         """
-        Load source-of-truth memories.
+        Load source-of-truth memories ONLY.
         """
         with open(self.memory_path, "r") as f:
-            return json.load(f)
+            data = json.load(f)
+
+        # 🔒 CRITICAL FIX: metadata.json is a dict, not a list
+        if isinstance(data, dict):
+            return data.get("memories", [])
+
+        return data  # fallback (older formats)
 
     def save_chunks(self, chunks: List[Dict]):
         """
@@ -37,7 +43,6 @@ class Chunker:
         Chunk text based on paragraph boundaries first.
         Paragraphs are semantic hints, not hard rules.
         """
-        # Split on blank lines (paragraphs)
         raw_paragraphs = [
             p.strip() for p in text.split("\n\n") if p.strip()
         ]
@@ -46,12 +51,11 @@ class Chunker:
         buffer = ""
 
         for paragraph in raw_paragraphs:
-            # If buffer is empty, start new
             if not buffer:
                 buffer = paragraph
                 continue
 
-            # Heuristic: merge if paragraph is short or dependent
+            # Merge small dependent paragraphs
             if len(paragraph.split()) < 40:
                 buffer += " " + paragraph
             else:
@@ -85,7 +89,7 @@ class Chunker:
                     "chunk_index": idx,
                     "chunk_text": chunk_text,
                     "source": source,
-                    "created_at": created_at
+                    "created_at": created_at,
                 }
                 all_chunks.append(chunk)
 
