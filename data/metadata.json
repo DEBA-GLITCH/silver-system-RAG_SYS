@@ -93,6 +93,27 @@
       "source": "data/sample_document.txt",
       "type": "file",
       "timestamp": "2026-02-05T10:26:24.394256"
+    },
+    {
+      "memory_id": "8b74f749-e527-4729-9f0e-1321150727e7",
+      "text": "My food delivery startup failed because delivery costs were too high\nand logistics delays caused customer dissatisfaction.\n\n",
+      "source": "data/sample_document.txt",
+      "type": "file",
+      "timestamp": "2026-02-05T10:49:09.830854"
+    },
+    {
+      "memory_id": "e9641cdb-6af0-4e44-ba87-9ec714e2c711",
+      "text": "My food delivery startup failed because delivery costs were too high\nand logistics delays caused customer dissatisfaction.\n\n",
+      "source": "data/sample_document.txt",
+      "type": "file",
+      "timestamp": "2026-02-05T10:51:30.406341"
+    },
+    {
+      "memory_id": "c25330d9-876c-4352-af99-dd1de2cf02da",
+      "text": "My food delivery startup failed because delivery costs were too high\nand logistics delays caused customer dissatisfaction.\n\n",
+      "source": "data/sample_document.txt",
+      "type": "file",
+      "timestamp": "2026-02-05T10:54:51.367741"
     }
   ],
   "chunks": {
@@ -631,6 +652,606 @@
       "chunk_text": "My food delivery startup failed because delivery costs were too high\nand logistics delays caused customer dissatisfaction.",
       "source": "data/sample_document.txt",
       "created_at": "2026-02-05T10:26:24.396439"
+    },
+    "2bab8646-b085-4996-b6b4-70465496a58d": {
+      "chunk_id": "2bab8646-b085-4996-b6b4-70465496a58d",
+      "memory_id": "dd503670-2f7d-4256-8386-f8b7f26b3093",
+      "chunk_index": 0,
+      "chunk_text": "hello im your creator deba-glitch",
+      "source": "manual_cli",
+      "created_at": "2026-02-05T10:49:09.832096"
+    },
+    "4457eb0d-fca6-4128-a5dc-c2fa32338af1": {
+      "chunk_id": "4457eb0d-fca6-4128-a5dc-c2fa32338af1",
+      "memory_id": "4ac6f7fc-23c7-426a-8a44-6d46a119967f",
+      "chunk_index": 0,
+      "chunk_text": "your pourpose is help me read big pdf etc and tell me the crust of that information",
+      "source": "manual_cli",
+      "created_at": "2026-02-05T10:49:09.832118"
+    },
+    "25c86e36-77e8-432d-a3eb-1b29e16f6673": {
+      "chunk_id": "25c86e36-77e8-432d-a3eb-1b29e16f6673",
+      "memory_id": "842b0af2-19e6-4fc7-b402-9bdb97107911",
+      "chunk_index": 0,
+      "chunk_text": "food delivery startup failed logistics",
+      "source": "manual_cli",
+      "created_at": "2026-02-05T10:49:09.832128"
+    },
+    "6a5bcfb6-709b-47a0-8346-644832656c6b": {
+      "chunk_id": "6a5bcfb6-709b-47a0-8346-644832656c6b",
+      "memory_id": "3ea4e439-c8e3-4c83-9801-42c89fe1a976",
+      "chunk_index": 0,
+      "chunk_text": "Ubuntu / Linux Essential Command Guide for Developers\nThis document is a no-nonsense, practical command reference for Ubuntu and Linux users. If you touch\nservers, containers, code, or terminals, these commands are mandatory knowledge.\n1. File & Folder Management\npwd \u2192 Show current directory\nls \u2192 List files\nls -la \u2192 List all files with permissions\ncd folder_name \u2192 Enter folder\ncd .. \u2192 Go back one level\ncd ~ \u2192 Go to home directory\nmkdir folder \u2192 Create folder\nmkdir -p parent/child/grandchild \u2192 Create nested folders\ntouch file.txt \u2192 Create empty file\ncp file.txt dest/ \u2192 Copy file\ncp -r folder dest/ \u2192 Copy folder\nmv file.txt newname.txt \u2192 Rename file\nmv file.txt folder/ \u2192 Move file\nrm file.txt \u2192 Delete file\nrm -r folder \u2192 Delete folder\nrm -rf folder \u2192 Force delete (danger)\nstat file.txt \u2192 File details\ntree \u2192 Folder structure view\n2. Locate Files & Folders\nfind / -name file.txt \u2192 Search file system\nfind . -type f \u2192 Find files\nfind . -type d \u2192 Find folders\nlocate file.txt \u2192 Fast search (needs updatedb)\nupdatedb \u2192 Update locate database\nwhich python \u2192 Command binary location\nwhereis python \u2192 Binary, source, man page\n3. File Viewing & Editing\ncat file.txt \u2192 View file\nless file.txt \u2192 Scroll view\nhead file.txt \u2192 First 10 lines\ntail file.txt \u2192 Last 10 lines\ntail -f log.txt \u2192 Live log view\nnano file.txt \u2192 Edit (beginner)\nvim file.txt \u2192 Edit (pro)\ncode . \u2192 Open VS Code\n4. Permissions & Ownership\nchmod 755 file.sh \u2192 Change permissions\nchmod +x script.sh \u2192 Make executable\nchown user:user file.txt \u2192 Change owner\nls -l \u2192 View permissions\n5. Package Management (APT)\nsudo apt update \u2192 Refresh repo\nsudo apt upgrade \u2192 Upgrade system\nsudo apt install git \u2192 Install package",
+      "source": "/home/debanshu-gig/Downloads/Ubuntu_Linux_Developer_Command_Guide.pdf",
+      "created_at": "2026-02-05T10:49:09.832133"
+    },
+    "c96705c3-1888-4c81-87b2-6cc35f5032f2": {
+      "chunk_id": "c96705c3-1888-4c81-87b2-6cc35f5032f2",
+      "memory_id": "3ea4e439-c8e3-4c83-9801-42c89fe1a976",
+      "chunk_index": 1,
+      "chunk_text": "sudo apt remove git \u2192 Remove package\nsudo apt purge git \u2192 Remove config too\napt search nginx \u2192 Search package\napt show nginx \u2192 Package info\nsudo apt autoremove \u2192 Cleanup\n6. Install .deb File (Downloaded from Website)\ncd ~/Downloads\nsudo dpkg -i app.deb \u2192 Install deb\nsudo apt -f install \u2192 Fix dependencies\nsudo dpkg -r app \u2192 Remove deb app\n7. System Info & Monitoring\nuname -a \u2192 Kernel info\nlsb_release -a \u2192 OS info\ndf -h \u2192 Disk usage\ndu -sh folder \u2192 Folder size\nfree -h \u2192 RAM usage\ntop / htop \u2192 Process monitor\nuptime \u2192 System runtime\nwhoami \u2192 Current user\n8. Networking\nip a \u2192 Network interfaces\nip route \u2192 Routing table\nping google.com \u2192 Test internet\ncurl url \u2192 API call\nwget url \u2192 Download file\nss -tuln \u2192 Open ports\nnetstat -tuln \u2192 Legacy port list\n9. Process Management\nps aux \u2192 All processes\nkill PID \u2192 Kill process\nkill -9 PID \u2192 Force kill\npkill process \u2192 Kill by name\nbg / fg \u2192 Background / foreground\n10. Environment & Shell\nenv \u2192 Environment variables\nexport VAR=value \u2192 Set variable\necho $VAR \u2192 Read variable\nhistory \u2192 Command history\nclear \u2192 Clear terminal\nalias ll='ls -la' \u2192 Shortcut\nsource ~/.bashrc \u2192 Reload config\n11. Compression & Archives\ntar -czvf file.tar.gz folder/\ntar -xzvf file.tar.gz\nzip -r file.zip folder/\nunzip file.zip\n12. Disk & Mount\nlsblk \u2192 Disk list",
+      "source": "/home/debanshu-gig/Downloads/Ubuntu_Linux_Developer_Command_Guide.pdf",
+      "created_at": "2026-02-05T10:49:09.832133"
+    },
+    "1b98b55e-385e-4142-95da-493fe997888a": {
+      "chunk_id": "1b98b55e-385e-4142-95da-493fe997888a",
+      "memory_id": "3ea4e439-c8e3-4c83-9801-42c89fe1a976",
+      "chunk_index": 2,
+      "chunk_text": "mount \u2192 Mounted disks\numount /dev/sda1\n13. Git (Developer Mandatory)\ngit clone repo_url\ngit status\ngit add .\ngit commit -m 'msg'\ngit push\ngit pull\ngit branch\ngit checkout branch\n14. Docker (Modern Dev Mandatory)\ndocker --version\ndocker ps\ndocker ps -a\ndocker images\ndocker run image\ndocker stop container\ndocker rm container\ndocker rmi image\ndocker-compose up -d\n15. Power Commands (Danger Zone)\nsudo su \u2192 Root shell\nshutdown now\nreboot\nhistory -c \u2192 Clear history\nrm -rf / \u2192 NEVER RUN\nFinal Note\nIf you don\u2019t know these commands, you are not a serious Linux developer yet. Master these and Linux\nbecomes a weapon, not an obstacle.",
+      "source": "/home/debanshu-gig/Downloads/Ubuntu_Linux_Developer_Command_Guide.pdf",
+      "created_at": "2026-02-05T10:49:09.832133"
+    },
+    "4b50fe68-9a66-4431-bc80-b622943af02b": {
+      "chunk_id": "4b50fe68-9a66-4431-bc80-b622943af02b",
+      "memory_id": "18dafe7f-1042-4dd3-8a87-87ccb9d672b1",
+      "chunk_index": 0,
+      "chunk_text": "Ubuntu / Linux Essential Command Guide for Developers\nThis document is a no-nonsense, practical command reference for Ubuntu and Linux users. If you touch\nservers, containers, code, or terminals, these commands are mandatory knowledge.\n1. File & Folder Management\npwd \u2192 Show current directory\nls \u2192 List files\nls -la \u2192 List all files with permissions\ncd folder_name \u2192 Enter folder\ncd .. \u2192 Go back one level\ncd ~ \u2192 Go to home directory\nmkdir folder \u2192 Create folder\nmkdir -p parent/child/grandchild \u2192 Create nested folders\ntouch file.txt \u2192 Create empty file\ncp file.txt dest/ \u2192 Copy file\ncp -r folder dest/ \u2192 Copy folder\nmv file.txt newname.txt \u2192 Rename file\nmv file.txt folder/ \u2192 Move file\nrm file.txt \u2192 Delete file\nrm -r folder \u2192 Delete folder\nrm -rf folder \u2192 Force delete (danger)\nstat file.txt \u2192 File details\ntree \u2192 Folder structure view\n2. Locate Files & Folders\nfind / -name file.txt \u2192 Search file system\nfind . -type f \u2192 Find files\nfind . -type d \u2192 Find folders\nlocate file.txt \u2192 Fast search (needs updatedb)\nupdatedb \u2192 Update locate database\nwhich python \u2192 Command binary location\nwhereis python \u2192 Binary, source, man page\n3. File Viewing & Editing\ncat file.txt \u2192 View file\nless file.txt \u2192 Scroll view\nhead file.txt \u2192 First 10 lines\ntail file.txt \u2192 Last 10 lines\ntail -f log.txt \u2192 Live log view\nnano file.txt \u2192 Edit (beginner)\nvim file.txt \u2192 Edit (pro)\ncode . \u2192 Open VS Code\n4. Permissions & Ownership\nchmod 755 file.sh \u2192 Change permissions\nchmod +x script.sh \u2192 Make executable\nchown user:user file.txt \u2192 Change owner\nls -l \u2192 View permissions\n5. Package Management (APT)\nsudo apt update \u2192 Refresh repo\nsudo apt upgrade \u2192 Upgrade system\nsudo apt install git \u2192 Install package",
+      "source": "/home/debanshu-gig/Downloads/Ubuntu_Linux_Developer_Command_Guide.pdf",
+      "created_at": "2026-02-05T10:49:09.832178"
+    },
+    "cffc11c8-e844-4ea9-8c1e-9824935091b7": {
+      "chunk_id": "cffc11c8-e844-4ea9-8c1e-9824935091b7",
+      "memory_id": "18dafe7f-1042-4dd3-8a87-87ccb9d672b1",
+      "chunk_index": 1,
+      "chunk_text": "sudo apt remove git \u2192 Remove package\nsudo apt purge git \u2192 Remove config too\napt search nginx \u2192 Search package\napt show nginx \u2192 Package info\nsudo apt autoremove \u2192 Cleanup\n6. Install .deb File (Downloaded from Website)\ncd ~/Downloads\nsudo dpkg -i app.deb \u2192 Install deb\nsudo apt -f install \u2192 Fix dependencies\nsudo dpkg -r app \u2192 Remove deb app\n7. System Info & Monitoring\nuname -a \u2192 Kernel info\nlsb_release -a \u2192 OS info\ndf -h \u2192 Disk usage\ndu -sh folder \u2192 Folder size\nfree -h \u2192 RAM usage\ntop / htop \u2192 Process monitor\nuptime \u2192 System runtime\nwhoami \u2192 Current user\n8. Networking\nip a \u2192 Network interfaces\nip route \u2192 Routing table\nping google.com \u2192 Test internet\ncurl url \u2192 API call\nwget url \u2192 Download file\nss -tuln \u2192 Open ports\nnetstat -tuln \u2192 Legacy port list\n9. Process Management\nps aux \u2192 All processes\nkill PID \u2192 Kill process\nkill -9 PID \u2192 Force kill\npkill process \u2192 Kill by name\nbg / fg \u2192 Background / foreground\n10. Environment & Shell\nenv \u2192 Environment variables\nexport VAR=value \u2192 Set variable\necho $VAR \u2192 Read variable\nhistory \u2192 Command history\nclear \u2192 Clear terminal\nalias ll='ls -la' \u2192 Shortcut\nsource ~/.bashrc \u2192 Reload config\n11. Compression & Archives\ntar -czvf file.tar.gz folder/\ntar -xzvf file.tar.gz\nzip -r file.zip folder/\nunzip file.zip\n12. Disk & Mount\nlsblk \u2192 Disk list",
+      "source": "/home/debanshu-gig/Downloads/Ubuntu_Linux_Developer_Command_Guide.pdf",
+      "created_at": "2026-02-05T10:49:09.832178"
+    },
+    "4d50a5e3-82f1-49e1-bb93-18aca33bf6e6": {
+      "chunk_id": "4d50a5e3-82f1-49e1-bb93-18aca33bf6e6",
+      "memory_id": "18dafe7f-1042-4dd3-8a87-87ccb9d672b1",
+      "chunk_index": 2,
+      "chunk_text": "mount \u2192 Mounted disks\numount /dev/sda1\n13. Git (Developer Mandatory)\ngit clone repo_url\ngit status\ngit add .\ngit commit -m 'msg'\ngit push\ngit pull\ngit branch\ngit checkout branch\n14. Docker (Modern Dev Mandatory)\ndocker --version\ndocker ps\ndocker ps -a\ndocker images\ndocker run image\ndocker stop container\ndocker rm container\ndocker rmi image\ndocker-compose up -d\n15. Power Commands (Danger Zone)\nsudo su \u2192 Root shell\nshutdown now\nreboot\nhistory -c \u2192 Clear history\nrm -rf / \u2192 NEVER RUN\nFinal Note\nIf you don\u2019t know these commands, you are not a serious Linux developer yet. Master these and Linux\nbecomes a weapon, not an obstacle.",
+      "source": "/home/debanshu-gig/Downloads/Ubuntu_Linux_Developer_Command_Guide.pdf",
+      "created_at": "2026-02-05T10:49:09.832178"
+    },
+    "7c79d676-8f35-44bc-91b1-f4155bbb7550": {
+      "chunk_id": "7c79d676-8f35-44bc-91b1-f4155bbb7550",
+      "memory_id": "195526dd-0065-4cf2-9e82-b8f945cfac81",
+      "chunk_index": 0,
+      "chunk_text": "Ubuntu / Linux Essential Command Guide for Developers\nThis document is a no-nonsense, practical command reference for Ubuntu and Linux users. If you touch\nservers, containers, code, or terminals, these commands are mandatory knowledge.\n1. File & Folder Management\npwd \u2192 Show current directory\nls \u2192 List files\nls -la \u2192 List all files with permissions\ncd folder_name \u2192 Enter folder\ncd .. \u2192 Go back one level\ncd ~ \u2192 Go to home directory\nmkdir folder \u2192 Create folder\nmkdir -p parent/child/grandchild \u2192 Create nested folders\ntouch file.txt \u2192 Create empty file\ncp file.txt dest/ \u2192 Copy file\ncp -r folder dest/ \u2192 Copy folder\nmv file.txt newname.txt \u2192 Rename file\nmv file.txt folder/ \u2192 Move file\nrm file.txt \u2192 Delete file\nrm -r folder \u2192 Delete folder\nrm -rf folder \u2192 Force delete (danger)\nstat file.txt \u2192 File details\ntree \u2192 Folder structure view\n2. Locate Files & Folders\nfind / -name file.txt \u2192 Search file system\nfind . -type f \u2192 Find files\nfind . -type d \u2192 Find folders\nlocate file.txt \u2192 Fast search (needs updatedb)\nupdatedb \u2192 Update locate database\nwhich python \u2192 Command binary location\nwhereis python \u2192 Binary, source, man page\n3. File Viewing & Editing\ncat file.txt \u2192 View file\nless file.txt \u2192 Scroll view\nhead file.txt \u2192 First 10 lines\ntail file.txt \u2192 Last 10 lines\ntail -f log.txt \u2192 Live log view\nnano file.txt \u2192 Edit (beginner)\nvim file.txt \u2192 Edit (pro)\ncode . \u2192 Open VS Code\n4. Permissions & Ownership\nchmod 755 file.sh \u2192 Change permissions\nchmod +x script.sh \u2192 Make executable\nchown user:user file.txt \u2192 Change owner\nls -l \u2192 View permissions\n5. Package Management (APT)\nsudo apt update \u2192 Refresh repo\nsudo apt upgrade \u2192 Upgrade system\nsudo apt install git \u2192 Install package",
+      "source": "/home/debanshu-gig/Downloads/Ubuntu_Linux_Developer_Command_Guide.pdf",
+      "created_at": "2026-02-05T10:49:09.832205"
+    },
+    "4438cb2c-4eba-45e0-ae40-f7670a1a72fe": {
+      "chunk_id": "4438cb2c-4eba-45e0-ae40-f7670a1a72fe",
+      "memory_id": "195526dd-0065-4cf2-9e82-b8f945cfac81",
+      "chunk_index": 1,
+      "chunk_text": "sudo apt remove git \u2192 Remove package\nsudo apt purge git \u2192 Remove config too\napt search nginx \u2192 Search package\napt show nginx \u2192 Package info\nsudo apt autoremove \u2192 Cleanup\n6. Install .deb File (Downloaded from Website)\ncd ~/Downloads\nsudo dpkg -i app.deb \u2192 Install deb\nsudo apt -f install \u2192 Fix dependencies\nsudo dpkg -r app \u2192 Remove deb app\n7. System Info & Monitoring\nuname -a \u2192 Kernel info\nlsb_release -a \u2192 OS info\ndf -h \u2192 Disk usage\ndu -sh folder \u2192 Folder size\nfree -h \u2192 RAM usage\ntop / htop \u2192 Process monitor\nuptime \u2192 System runtime\nwhoami \u2192 Current user\n8. Networking\nip a \u2192 Network interfaces\nip route \u2192 Routing table\nping google.com \u2192 Test internet\ncurl url \u2192 API call\nwget url \u2192 Download file\nss -tuln \u2192 Open ports\nnetstat -tuln \u2192 Legacy port list\n9. Process Management\nps aux \u2192 All processes\nkill PID \u2192 Kill process\nkill -9 PID \u2192 Force kill\npkill process \u2192 Kill by name\nbg / fg \u2192 Background / foreground\n10. Environment & Shell\nenv \u2192 Environment variables\nexport VAR=value \u2192 Set variable\necho $VAR \u2192 Read variable\nhistory \u2192 Command history\nclear \u2192 Clear terminal\nalias ll='ls -la' \u2192 Shortcut\nsource ~/.bashrc \u2192 Reload config\n11. Compression & Archives\ntar -czvf file.tar.gz folder/\ntar -xzvf file.tar.gz\nzip -r file.zip folder/\nunzip file.zip\n12. Disk & Mount\nlsblk \u2192 Disk list",
+      "source": "/home/debanshu-gig/Downloads/Ubuntu_Linux_Developer_Command_Guide.pdf",
+      "created_at": "2026-02-05T10:49:09.832205"
+    },
+    "f16bb195-863d-4c35-97c1-3f26e5292044": {
+      "chunk_id": "f16bb195-863d-4c35-97c1-3f26e5292044",
+      "memory_id": "195526dd-0065-4cf2-9e82-b8f945cfac81",
+      "chunk_index": 2,
+      "chunk_text": "mount \u2192 Mounted disks\numount /dev/sda1\n13. Git (Developer Mandatory)\ngit clone repo_url\ngit status\ngit add .\ngit commit -m 'msg'\ngit push\ngit pull\ngit branch\ngit checkout branch\n14. Docker (Modern Dev Mandatory)\ndocker --version\ndocker ps\ndocker ps -a\ndocker images\ndocker run image\ndocker stop container\ndocker rm container\ndocker rmi image\ndocker-compose up -d\n15. Power Commands (Danger Zone)\nsudo su \u2192 Root shell\nshutdown now\nreboot\nhistory -c \u2192 Clear history\nrm -rf / \u2192 NEVER RUN\nFinal Note\nIf you don\u2019t know these commands, you are not a serious Linux developer yet. Master these and Linux\nbecomes a weapon, not an obstacle.",
+      "source": "/home/debanshu-gig/Downloads/Ubuntu_Linux_Developer_Command_Guide.pdf",
+      "created_at": "2026-02-05T10:49:09.832205"
+    },
+    "8222d4bb-5f29-42ff-b175-5dc8c3a45c0a": {
+      "chunk_id": "8222d4bb-5f29-42ff-b175-5dc8c3a45c0a",
+      "memory_id": "275b0987-1ef0-4bd4-91e1-cdbb97e544fd",
+      "chunk_index": 0,
+      "chunk_text": "Ubuntu / Linux Essential Command Guide for Developers\nThis document is a no-nonsense, practical command reference for Ubuntu and Linux users. If you touch\nservers, containers, code, or terminals, these commands are mandatory knowledge.\n1. File & Folder Management\npwd \u2192 Show current directory\nls \u2192 List files\nls -la \u2192 List all files with permissions\ncd folder_name \u2192 Enter folder\ncd .. \u2192 Go back one level\ncd ~ \u2192 Go to home directory\nmkdir folder \u2192 Create folder\nmkdir -p parent/child/grandchild \u2192 Create nested folders\ntouch file.txt \u2192 Create empty file\ncp file.txt dest/ \u2192 Copy file\ncp -r folder dest/ \u2192 Copy folder\nmv file.txt newname.txt \u2192 Rename file\nmv file.txt folder/ \u2192 Move file\nrm file.txt \u2192 Delete file\nrm -r folder \u2192 Delete folder\nrm -rf folder \u2192 Force delete (danger)\nstat file.txt \u2192 File details\ntree \u2192 Folder structure view\n2. Locate Files & Folders\nfind / -name file.txt \u2192 Search file system\nfind . -type f \u2192 Find files\nfind . -type d \u2192 Find folders\nlocate file.txt \u2192 Fast search (needs updatedb)\nupdatedb \u2192 Update locate database\nwhich python \u2192 Command binary location\nwhereis python \u2192 Binary, source, man page\n3. File Viewing & Editing\ncat file.txt \u2192 View file\nless file.txt \u2192 Scroll view\nhead file.txt \u2192 First 10 lines\ntail file.txt \u2192 Last 10 lines\ntail -f log.txt \u2192 Live log view\nnano file.txt \u2192 Edit (beginner)\nvim file.txt \u2192 Edit (pro)\ncode . \u2192 Open VS Code\n4. Permissions & Ownership\nchmod 755 file.sh \u2192 Change permissions\nchmod +x script.sh \u2192 Make executable\nchown user:user file.txt \u2192 Change owner\nls -l \u2192 View permissions\n5. Package Management (APT)\nsudo apt update \u2192 Refresh repo\nsudo apt upgrade \u2192 Upgrade system\nsudo apt install git \u2192 Install package",
+      "source": "/home/debanshu-gig/Downloads/Ubuntu_Linux_Developer_Command_Guide.pdf",
+      "created_at": "2026-02-05T10:49:09.832228"
+    },
+    "d1c8127d-6a5b-44b3-98e1-1bd41caf9772": {
+      "chunk_id": "d1c8127d-6a5b-44b3-98e1-1bd41caf9772",
+      "memory_id": "275b0987-1ef0-4bd4-91e1-cdbb97e544fd",
+      "chunk_index": 1,
+      "chunk_text": "sudo apt remove git \u2192 Remove package\nsudo apt purge git \u2192 Remove config too\napt search nginx \u2192 Search package\napt show nginx \u2192 Package info\nsudo apt autoremove \u2192 Cleanup\n6. Install .deb File (Downloaded from Website)\ncd ~/Downloads\nsudo dpkg -i app.deb \u2192 Install deb\nsudo apt -f install \u2192 Fix dependencies\nsudo dpkg -r app \u2192 Remove deb app\n7. System Info & Monitoring\nuname -a \u2192 Kernel info\nlsb_release -a \u2192 OS info\ndf -h \u2192 Disk usage\ndu -sh folder \u2192 Folder size\nfree -h \u2192 RAM usage\ntop / htop \u2192 Process monitor\nuptime \u2192 System runtime\nwhoami \u2192 Current user\n8. Networking\nip a \u2192 Network interfaces\nip route \u2192 Routing table\nping google.com \u2192 Test internet\ncurl url \u2192 API call\nwget url \u2192 Download file\nss -tuln \u2192 Open ports\nnetstat -tuln \u2192 Legacy port list\n9. Process Management\nps aux \u2192 All processes\nkill PID \u2192 Kill process\nkill -9 PID \u2192 Force kill\npkill process \u2192 Kill by name\nbg / fg \u2192 Background / foreground\n10. Environment & Shell\nenv \u2192 Environment variables\nexport VAR=value \u2192 Set variable\necho $VAR \u2192 Read variable\nhistory \u2192 Command history\nclear \u2192 Clear terminal\nalias ll='ls -la' \u2192 Shortcut\nsource ~/.bashrc \u2192 Reload config\n11. Compression & Archives\ntar -czvf file.tar.gz folder/\ntar -xzvf file.tar.gz\nzip -r file.zip folder/\nunzip file.zip\n12. Disk & Mount\nlsblk \u2192 Disk list",
+      "source": "/home/debanshu-gig/Downloads/Ubuntu_Linux_Developer_Command_Guide.pdf",
+      "created_at": "2026-02-05T10:49:09.832228"
+    },
+    "765de7d7-3f9c-4efe-a598-f1a431bb2bc2": {
+      "chunk_id": "765de7d7-3f9c-4efe-a598-f1a431bb2bc2",
+      "memory_id": "275b0987-1ef0-4bd4-91e1-cdbb97e544fd",
+      "chunk_index": 2,
+      "chunk_text": "mount \u2192 Mounted disks\numount /dev/sda1\n13. Git (Developer Mandatory)\ngit clone repo_url\ngit status\ngit add .\ngit commit -m 'msg'\ngit push\ngit pull\ngit branch\ngit checkout branch\n14. Docker (Modern Dev Mandatory)\ndocker --version\ndocker ps\ndocker ps -a\ndocker images\ndocker run image\ndocker stop container\ndocker rm container\ndocker rmi image\ndocker-compose up -d\n15. Power Commands (Danger Zone)\nsudo su \u2192 Root shell\nshutdown now\nreboot\nhistory -c \u2192 Clear history\nrm -rf / \u2192 NEVER RUN\nFinal Note\nIf you don\u2019t know these commands, you are not a serious Linux developer yet. Master these and Linux\nbecomes a weapon, not an obstacle.",
+      "source": "/home/debanshu-gig/Downloads/Ubuntu_Linux_Developer_Command_Guide.pdf",
+      "created_at": "2026-02-05T10:49:09.832228"
+    },
+    "5d4f4e61-4608-432b-8e19-526f28699699": {
+      "chunk_id": "5d4f4e61-4608-432b-8e19-526f28699699",
+      "memory_id": "11e603f2-9508-4207-abf2-9d704d8ce7d6",
+      "chunk_index": 0,
+      "chunk_text": "Ubuntu / Linux Essential Command Guide for Developers\nThis document is a no-nonsense, practical command reference for Ubuntu and Linux users. If you touch\nservers, containers, code, or terminals, these commands are mandatory knowledge.\n1. File & Folder Management\npwd \u2192 Show current directory\nls \u2192 List files\nls -la \u2192 List all files with permissions\ncd folder_name \u2192 Enter folder\ncd .. \u2192 Go back one level\ncd ~ \u2192 Go to home directory\nmkdir folder \u2192 Create folder\nmkdir -p parent/child/grandchild \u2192 Create nested folders\ntouch file.txt \u2192 Create empty file\ncp file.txt dest/ \u2192 Copy file\ncp -r folder dest/ \u2192 Copy folder\nmv file.txt newname.txt \u2192 Rename file\nmv file.txt folder/ \u2192 Move file\nrm file.txt \u2192 Delete file\nrm -r folder \u2192 Delete folder\nrm -rf folder \u2192 Force delete (danger)\nstat file.txt \u2192 File details\ntree \u2192 Folder structure view\n2. Locate Files & Folders\nfind / -name file.txt \u2192 Search file system\nfind . -type f \u2192 Find files\nfind . -type d \u2192 Find folders\nlocate file.txt \u2192 Fast search (needs updatedb)\nupdatedb \u2192 Update locate database\nwhich python \u2192 Command binary location\nwhereis python \u2192 Binary, source, man page\n3. File Viewing & Editing\ncat file.txt \u2192 View file\nless file.txt \u2192 Scroll view\nhead file.txt \u2192 First 10 lines\ntail file.txt \u2192 Last 10 lines\ntail -f log.txt \u2192 Live log view\nnano file.txt \u2192 Edit (beginner)\nvim file.txt \u2192 Edit (pro)\ncode . \u2192 Open VS Code\n4. Permissions & Ownership\nchmod 755 file.sh \u2192 Change permissions\nchmod +x script.sh \u2192 Make executable\nchown user:user file.txt \u2192 Change owner\nls -l \u2192 View permissions\n5. Package Management (APT)\nsudo apt update \u2192 Refresh repo\nsudo apt upgrade \u2192 Upgrade system\nsudo apt install git \u2192 Install package",
+      "source": "/home/debanshu-gig/Downloads/Ubuntu_Linux_Developer_Command_Guide.pdf",
+      "created_at": "2026-02-05T10:49:09.832249"
+    },
+    "d948ecb1-fb63-4927-8a4a-6eb9b39d7a96": {
+      "chunk_id": "d948ecb1-fb63-4927-8a4a-6eb9b39d7a96",
+      "memory_id": "11e603f2-9508-4207-abf2-9d704d8ce7d6",
+      "chunk_index": 1,
+      "chunk_text": "sudo apt remove git \u2192 Remove package\nsudo apt purge git \u2192 Remove config too\napt search nginx \u2192 Search package\napt show nginx \u2192 Package info\nsudo apt autoremove \u2192 Cleanup\n6. Install .deb File (Downloaded from Website)\ncd ~/Downloads\nsudo dpkg -i app.deb \u2192 Install deb\nsudo apt -f install \u2192 Fix dependencies\nsudo dpkg -r app \u2192 Remove deb app\n7. System Info & Monitoring\nuname -a \u2192 Kernel info\nlsb_release -a \u2192 OS info\ndf -h \u2192 Disk usage\ndu -sh folder \u2192 Folder size\nfree -h \u2192 RAM usage\ntop / htop \u2192 Process monitor\nuptime \u2192 System runtime\nwhoami \u2192 Current user\n8. Networking\nip a \u2192 Network interfaces\nip route \u2192 Routing table\nping google.com \u2192 Test internet\ncurl url \u2192 API call\nwget url \u2192 Download file\nss -tuln \u2192 Open ports\nnetstat -tuln \u2192 Legacy port list\n9. Process Management\nps aux \u2192 All processes\nkill PID \u2192 Kill process\nkill -9 PID \u2192 Force kill\npkill process \u2192 Kill by name\nbg / fg \u2192 Background / foreground\n10. Environment & Shell\nenv \u2192 Environment variables\nexport VAR=value \u2192 Set variable\necho $VAR \u2192 Read variable\nhistory \u2192 Command history\nclear \u2192 Clear terminal\nalias ll='ls -la' \u2192 Shortcut\nsource ~/.bashrc \u2192 Reload config\n11. Compression & Archives\ntar -czvf file.tar.gz folder/\ntar -xzvf file.tar.gz\nzip -r file.zip folder/\nunzip file.zip\n12. Disk & Mount\nlsblk \u2192 Disk list",
+      "source": "/home/debanshu-gig/Downloads/Ubuntu_Linux_Developer_Command_Guide.pdf",
+      "created_at": "2026-02-05T10:49:09.832249"
+    },
+    "f2fbc3a1-5448-4f0e-9b38-f26149a24672": {
+      "chunk_id": "f2fbc3a1-5448-4f0e-9b38-f26149a24672",
+      "memory_id": "11e603f2-9508-4207-abf2-9d704d8ce7d6",
+      "chunk_index": 2,
+      "chunk_text": "mount \u2192 Mounted disks\numount /dev/sda1\n13. Git (Developer Mandatory)\ngit clone repo_url\ngit status\ngit add .\ngit commit -m 'msg'\ngit push\ngit pull\ngit branch\ngit checkout branch\n14. Docker (Modern Dev Mandatory)\ndocker --version\ndocker ps\ndocker ps -a\ndocker images\ndocker run image\ndocker stop container\ndocker rm container\ndocker rmi image\ndocker-compose up -d\n15. Power Commands (Danger Zone)\nsudo su \u2192 Root shell\nshutdown now\nreboot\nhistory -c \u2192 Clear history\nrm -rf / \u2192 NEVER RUN\nFinal Note\nIf you don\u2019t know these commands, you are not a serious Linux developer yet. Master these and Linux\nbecomes a weapon, not an obstacle.",
+      "source": "/home/debanshu-gig/Downloads/Ubuntu_Linux_Developer_Command_Guide.pdf",
+      "created_at": "2026-02-05T10:49:09.832249"
+    },
+    "b9489bda-f2d8-464d-8443-9ab9e9cd1d08": {
+      "chunk_id": "b9489bda-f2d8-464d-8443-9ab9e9cd1d08",
+      "memory_id": "0bd59e17-f6b6-45db-9ec3-26fa74b3f080",
+      "chunk_index": 0,
+      "chunk_text": "My food delivery startup failed because delivery costs were too high\nand logistics delays caused customer dissatisfaction.",
+      "source": "data/sample_document.txt",
+      "created_at": "2026-02-05T10:49:09.832270"
+    },
+    "e2a2062a-6239-4d37-864a-2787c6b7f7ae": {
+      "chunk_id": "e2a2062a-6239-4d37-864a-2787c6b7f7ae",
+      "memory_id": "e58995d5-061f-400c-ae04-6120846b75ed",
+      "chunk_index": 0,
+      "chunk_text": "My food delivery startup failed because delivery costs were too high\nand logistics delays caused customer dissatisfaction.",
+      "source": "data/sample_document.txt",
+      "created_at": "2026-02-05T10:49:09.832274"
+    },
+    "9056e15e-de01-46c0-aaca-7c2407aa26e7": {
+      "chunk_id": "9056e15e-de01-46c0-aaca-7c2407aa26e7",
+      "memory_id": "dea1d898-ecc8-49b4-adca-49b4403002f3",
+      "chunk_index": 0,
+      "chunk_text": "My food delivery startup failed because delivery costs were too high\nand logistics delays caused customer dissatisfaction.",
+      "source": "data/sample_document.txt",
+      "created_at": "2026-02-05T10:49:09.832278"
+    },
+    "261e03da-74f5-4774-8163-e6a675650e40": {
+      "chunk_id": "261e03da-74f5-4774-8163-e6a675650e40",
+      "memory_id": "118f2f88-b18b-456b-a2bd-c743f864328b",
+      "chunk_index": 0,
+      "chunk_text": "My food delivery startup failed because delivery costs were too high\nand logistics delays caused customer dissatisfaction.",
+      "source": "data/sample_document.txt",
+      "created_at": "2026-02-05T10:49:09.832282"
+    },
+    "c8559359-9d74-48a9-9d62-2b0fd36d0d33": {
+      "chunk_id": "c8559359-9d74-48a9-9d62-2b0fd36d0d33",
+      "memory_id": "bd0adff7-2eff-4114-ac54-7792351b0596",
+      "chunk_index": 0,
+      "chunk_text": "My food delivery startup failed because delivery costs were too high\nand logistics delays caused customer dissatisfaction.",
+      "source": "data/sample_document.txt",
+      "created_at": "2026-02-05T10:49:09.832286"
+    },
+    "f20d1af9-da03-404a-90dc-650a9fb8e8bb": {
+      "chunk_id": "f20d1af9-da03-404a-90dc-650a9fb8e8bb",
+      "memory_id": "8b74f749-e527-4729-9f0e-1321150727e7",
+      "chunk_index": 0,
+      "chunk_text": "My food delivery startup failed because delivery costs were too high\nand logistics delays caused customer dissatisfaction.",
+      "source": "data/sample_document.txt",
+      "created_at": "2026-02-05T10:49:09.832290"
+    },
+    "2e5c6117-df82-4359-81a9-4832666f9555": {
+      "chunk_id": "2e5c6117-df82-4359-81a9-4832666f9555",
+      "memory_id": "dd503670-2f7d-4256-8386-f8b7f26b3093",
+      "chunk_index": 0,
+      "chunk_text": "hello im your creator deba-glitch",
+      "source": "manual_cli",
+      "created_at": "2026-02-05T10:51:30.408284"
+    },
+    "b2ff8ead-a121-4169-956b-66cce0347c4b": {
+      "chunk_id": "b2ff8ead-a121-4169-956b-66cce0347c4b",
+      "memory_id": "4ac6f7fc-23c7-426a-8a44-6d46a119967f",
+      "chunk_index": 0,
+      "chunk_text": "your pourpose is help me read big pdf etc and tell me the crust of that information",
+      "source": "manual_cli",
+      "created_at": "2026-02-05T10:51:30.408325"
+    },
+    "128325c9-38bc-4398-96a8-524f6e0d93ee": {
+      "chunk_id": "128325c9-38bc-4398-96a8-524f6e0d93ee",
+      "memory_id": "842b0af2-19e6-4fc7-b402-9bdb97107911",
+      "chunk_index": 0,
+      "chunk_text": "food delivery startup failed logistics",
+      "source": "manual_cli",
+      "created_at": "2026-02-05T10:51:30.408336"
+    },
+    "2a612b89-435a-4db7-ab2b-5e31b3947db7": {
+      "chunk_id": "2a612b89-435a-4db7-ab2b-5e31b3947db7",
+      "memory_id": "3ea4e439-c8e3-4c83-9801-42c89fe1a976",
+      "chunk_index": 0,
+      "chunk_text": "Ubuntu / Linux Essential Command Guide for Developers\nThis document is a no-nonsense, practical command reference for Ubuntu and Linux users. If you touch\nservers, containers, code, or terminals, these commands are mandatory knowledge.\n1. File & Folder Management\npwd \u2192 Show current directory\nls \u2192 List files\nls -la \u2192 List all files with permissions\ncd folder_name \u2192 Enter folder\ncd .. \u2192 Go back one level\ncd ~ \u2192 Go to home directory\nmkdir folder \u2192 Create folder\nmkdir -p parent/child/grandchild \u2192 Create nested folders\ntouch file.txt \u2192 Create empty file\ncp file.txt dest/ \u2192 Copy file\ncp -r folder dest/ \u2192 Copy folder\nmv file.txt newname.txt \u2192 Rename file\nmv file.txt folder/ \u2192 Move file\nrm file.txt \u2192 Delete file\nrm -r folder \u2192 Delete folder\nrm -rf folder \u2192 Force delete (danger)\nstat file.txt \u2192 File details\ntree \u2192 Folder structure view\n2. Locate Files & Folders\nfind / -name file.txt \u2192 Search file system\nfind . -type f \u2192 Find files\nfind . -type d \u2192 Find folders\nlocate file.txt \u2192 Fast search (needs updatedb)\nupdatedb \u2192 Update locate database\nwhich python \u2192 Command binary location\nwhereis python \u2192 Binary, source, man page\n3. File Viewing & Editing\ncat file.txt \u2192 View file\nless file.txt \u2192 Scroll view\nhead file.txt \u2192 First 10 lines\ntail file.txt \u2192 Last 10 lines\ntail -f log.txt \u2192 Live log view\nnano file.txt \u2192 Edit (beginner)\nvim file.txt \u2192 Edit (pro)\ncode . \u2192 Open VS Code\n4. Permissions & Ownership\nchmod 755 file.sh \u2192 Change permissions\nchmod +x script.sh \u2192 Make executable\nchown user:user file.txt \u2192 Change owner\nls -l \u2192 View permissions\n5. Package Management (APT)\nsudo apt update \u2192 Refresh repo\nsudo apt upgrade \u2192 Upgrade system\nsudo apt install git \u2192 Install package",
+      "source": "/home/debanshu-gig/Downloads/Ubuntu_Linux_Developer_Command_Guide.pdf",
+      "created_at": "2026-02-05T10:51:30.408342"
+    },
+    "f350fdc7-e59c-4b3b-bba3-e73e2d830ba5": {
+      "chunk_id": "f350fdc7-e59c-4b3b-bba3-e73e2d830ba5",
+      "memory_id": "3ea4e439-c8e3-4c83-9801-42c89fe1a976",
+      "chunk_index": 1,
+      "chunk_text": "sudo apt remove git \u2192 Remove package\nsudo apt purge git \u2192 Remove config too\napt search nginx \u2192 Search package\napt show nginx \u2192 Package info\nsudo apt autoremove \u2192 Cleanup\n6. Install .deb File (Downloaded from Website)\ncd ~/Downloads\nsudo dpkg -i app.deb \u2192 Install deb\nsudo apt -f install \u2192 Fix dependencies\nsudo dpkg -r app \u2192 Remove deb app\n7. System Info & Monitoring\nuname -a \u2192 Kernel info\nlsb_release -a \u2192 OS info\ndf -h \u2192 Disk usage\ndu -sh folder \u2192 Folder size\nfree -h \u2192 RAM usage\ntop / htop \u2192 Process monitor\nuptime \u2192 System runtime\nwhoami \u2192 Current user\n8. Networking\nip a \u2192 Network interfaces\nip route \u2192 Routing table\nping google.com \u2192 Test internet\ncurl url \u2192 API call\nwget url \u2192 Download file\nss -tuln \u2192 Open ports\nnetstat -tuln \u2192 Legacy port list\n9. Process Management\nps aux \u2192 All processes\nkill PID \u2192 Kill process\nkill -9 PID \u2192 Force kill\npkill process \u2192 Kill by name\nbg / fg \u2192 Background / foreground\n10. Environment & Shell\nenv \u2192 Environment variables\nexport VAR=value \u2192 Set variable\necho $VAR \u2192 Read variable\nhistory \u2192 Command history\nclear \u2192 Clear terminal\nalias ll='ls -la' \u2192 Shortcut\nsource ~/.bashrc \u2192 Reload config\n11. Compression & Archives\ntar -czvf file.tar.gz folder/\ntar -xzvf file.tar.gz\nzip -r file.zip folder/\nunzip file.zip\n12. Disk & Mount\nlsblk \u2192 Disk list",
+      "source": "/home/debanshu-gig/Downloads/Ubuntu_Linux_Developer_Command_Guide.pdf",
+      "created_at": "2026-02-05T10:51:30.408342"
+    },
+    "c8063a9e-9049-4dbf-8657-854953260c9b": {
+      "chunk_id": "c8063a9e-9049-4dbf-8657-854953260c9b",
+      "memory_id": "3ea4e439-c8e3-4c83-9801-42c89fe1a976",
+      "chunk_index": 2,
+      "chunk_text": "mount \u2192 Mounted disks\numount /dev/sda1\n13. Git (Developer Mandatory)\ngit clone repo_url\ngit status\ngit add .\ngit commit -m 'msg'\ngit push\ngit pull\ngit branch\ngit checkout branch\n14. Docker (Modern Dev Mandatory)\ndocker --version\ndocker ps\ndocker ps -a\ndocker images\ndocker run image\ndocker stop container\ndocker rm container\ndocker rmi image\ndocker-compose up -d\n15. Power Commands (Danger Zone)\nsudo su \u2192 Root shell\nshutdown now\nreboot\nhistory -c \u2192 Clear history\nrm -rf / \u2192 NEVER RUN\nFinal Note\nIf you don\u2019t know these commands, you are not a serious Linux developer yet. Master these and Linux\nbecomes a weapon, not an obstacle.",
+      "source": "/home/debanshu-gig/Downloads/Ubuntu_Linux_Developer_Command_Guide.pdf",
+      "created_at": "2026-02-05T10:51:30.408342"
+    },
+    "e609c2f1-cba5-436f-aa6c-a16d5a419548": {
+      "chunk_id": "e609c2f1-cba5-436f-aa6c-a16d5a419548",
+      "memory_id": "18dafe7f-1042-4dd3-8a87-87ccb9d672b1",
+      "chunk_index": 0,
+      "chunk_text": "Ubuntu / Linux Essential Command Guide for Developers\nThis document is a no-nonsense, practical command reference for Ubuntu and Linux users. If you touch\nservers, containers, code, or terminals, these commands are mandatory knowledge.\n1. File & Folder Management\npwd \u2192 Show current directory\nls \u2192 List files\nls -la \u2192 List all files with permissions\ncd folder_name \u2192 Enter folder\ncd .. \u2192 Go back one level\ncd ~ \u2192 Go to home directory\nmkdir folder \u2192 Create folder\nmkdir -p parent/child/grandchild \u2192 Create nested folders\ntouch file.txt \u2192 Create empty file\ncp file.txt dest/ \u2192 Copy file\ncp -r folder dest/ \u2192 Copy folder\nmv file.txt newname.txt \u2192 Rename file\nmv file.txt folder/ \u2192 Move file\nrm file.txt \u2192 Delete file\nrm -r folder \u2192 Delete folder\nrm -rf folder \u2192 Force delete (danger)\nstat file.txt \u2192 File details\ntree \u2192 Folder structure view\n2. Locate Files & Folders\nfind / -name file.txt \u2192 Search file system\nfind . -type f \u2192 Find files\nfind . -type d \u2192 Find folders\nlocate file.txt \u2192 Fast search (needs updatedb)\nupdatedb \u2192 Update locate database\nwhich python \u2192 Command binary location\nwhereis python \u2192 Binary, source, man page\n3. File Viewing & Editing\ncat file.txt \u2192 View file\nless file.txt \u2192 Scroll view\nhead file.txt \u2192 First 10 lines\ntail file.txt \u2192 Last 10 lines\ntail -f log.txt \u2192 Live log view\nnano file.txt \u2192 Edit (beginner)\nvim file.txt \u2192 Edit (pro)\ncode . \u2192 Open VS Code\n4. Permissions & Ownership\nchmod 755 file.sh \u2192 Change permissions\nchmod +x script.sh \u2192 Make executable\nchown user:user file.txt \u2192 Change owner\nls -l \u2192 View permissions\n5. Package Management (APT)\nsudo apt update \u2192 Refresh repo\nsudo apt upgrade \u2192 Upgrade system\nsudo apt install git \u2192 Install package",
+      "source": "/home/debanshu-gig/Downloads/Ubuntu_Linux_Developer_Command_Guide.pdf",
+      "created_at": "2026-02-05T10:51:30.408389"
+    },
+    "d3aa97a2-458d-4624-89a2-094c233d5db7": {
+      "chunk_id": "d3aa97a2-458d-4624-89a2-094c233d5db7",
+      "memory_id": "18dafe7f-1042-4dd3-8a87-87ccb9d672b1",
+      "chunk_index": 1,
+      "chunk_text": "sudo apt remove git \u2192 Remove package\nsudo apt purge git \u2192 Remove config too\napt search nginx \u2192 Search package\napt show nginx \u2192 Package info\nsudo apt autoremove \u2192 Cleanup\n6. Install .deb File (Downloaded from Website)\ncd ~/Downloads\nsudo dpkg -i app.deb \u2192 Install deb\nsudo apt -f install \u2192 Fix dependencies\nsudo dpkg -r app \u2192 Remove deb app\n7. System Info & Monitoring\nuname -a \u2192 Kernel info\nlsb_release -a \u2192 OS info\ndf -h \u2192 Disk usage\ndu -sh folder \u2192 Folder size\nfree -h \u2192 RAM usage\ntop / htop \u2192 Process monitor\nuptime \u2192 System runtime\nwhoami \u2192 Current user\n8. Networking\nip a \u2192 Network interfaces\nip route \u2192 Routing table\nping google.com \u2192 Test internet\ncurl url \u2192 API call\nwget url \u2192 Download file\nss -tuln \u2192 Open ports\nnetstat -tuln \u2192 Legacy port list\n9. Process Management\nps aux \u2192 All processes\nkill PID \u2192 Kill process\nkill -9 PID \u2192 Force kill\npkill process \u2192 Kill by name\nbg / fg \u2192 Background / foreground\n10. Environment & Shell\nenv \u2192 Environment variables\nexport VAR=value \u2192 Set variable\necho $VAR \u2192 Read variable\nhistory \u2192 Command history\nclear \u2192 Clear terminal\nalias ll='ls -la' \u2192 Shortcut\nsource ~/.bashrc \u2192 Reload config\n11. Compression & Archives\ntar -czvf file.tar.gz folder/\ntar -xzvf file.tar.gz\nzip -r file.zip folder/\nunzip file.zip\n12. Disk & Mount\nlsblk \u2192 Disk list",
+      "source": "/home/debanshu-gig/Downloads/Ubuntu_Linux_Developer_Command_Guide.pdf",
+      "created_at": "2026-02-05T10:51:30.408389"
+    },
+    "4b97c9fc-c1d7-4b2b-bc33-b7759817f437": {
+      "chunk_id": "4b97c9fc-c1d7-4b2b-bc33-b7759817f437",
+      "memory_id": "18dafe7f-1042-4dd3-8a87-87ccb9d672b1",
+      "chunk_index": 2,
+      "chunk_text": "mount \u2192 Mounted disks\numount /dev/sda1\n13. Git (Developer Mandatory)\ngit clone repo_url\ngit status\ngit add .\ngit commit -m 'msg'\ngit push\ngit pull\ngit branch\ngit checkout branch\n14. Docker (Modern Dev Mandatory)\ndocker --version\ndocker ps\ndocker ps -a\ndocker images\ndocker run image\ndocker stop container\ndocker rm container\ndocker rmi image\ndocker-compose up -d\n15. Power Commands (Danger Zone)\nsudo su \u2192 Root shell\nshutdown now\nreboot\nhistory -c \u2192 Clear history\nrm -rf / \u2192 NEVER RUN\nFinal Note\nIf you don\u2019t know these commands, you are not a serious Linux developer yet. Master these and Linux\nbecomes a weapon, not an obstacle.",
+      "source": "/home/debanshu-gig/Downloads/Ubuntu_Linux_Developer_Command_Guide.pdf",
+      "created_at": "2026-02-05T10:51:30.408389"
+    },
+    "0789586c-bab3-41b3-87f8-c5ba9b11c05e": {
+      "chunk_id": "0789586c-bab3-41b3-87f8-c5ba9b11c05e",
+      "memory_id": "195526dd-0065-4cf2-9e82-b8f945cfac81",
+      "chunk_index": 0,
+      "chunk_text": "Ubuntu / Linux Essential Command Guide for Developers\nThis document is a no-nonsense, practical command reference for Ubuntu and Linux users. If you touch\nservers, containers, code, or terminals, these commands are mandatory knowledge.\n1. File & Folder Management\npwd \u2192 Show current directory\nls \u2192 List files\nls -la \u2192 List all files with permissions\ncd folder_name \u2192 Enter folder\ncd .. \u2192 Go back one level\ncd ~ \u2192 Go to home directory\nmkdir folder \u2192 Create folder\nmkdir -p parent/child/grandchild \u2192 Create nested folders\ntouch file.txt \u2192 Create empty file\ncp file.txt dest/ \u2192 Copy file\ncp -r folder dest/ \u2192 Copy folder\nmv file.txt newname.txt \u2192 Rename file\nmv file.txt folder/ \u2192 Move file\nrm file.txt \u2192 Delete file\nrm -r folder \u2192 Delete folder\nrm -rf folder \u2192 Force delete (danger)\nstat file.txt \u2192 File details\ntree \u2192 Folder structure view\n2. Locate Files & Folders\nfind / -name file.txt \u2192 Search file system\nfind . -type f \u2192 Find files\nfind . -type d \u2192 Find folders\nlocate file.txt \u2192 Fast search (needs updatedb)\nupdatedb \u2192 Update locate database\nwhich python \u2192 Command binary location\nwhereis python \u2192 Binary, source, man page\n3. File Viewing & Editing\ncat file.txt \u2192 View file\nless file.txt \u2192 Scroll view\nhead file.txt \u2192 First 10 lines\ntail file.txt \u2192 Last 10 lines\ntail -f log.txt \u2192 Live log view\nnano file.txt \u2192 Edit (beginner)\nvim file.txt \u2192 Edit (pro)\ncode . \u2192 Open VS Code\n4. Permissions & Ownership\nchmod 755 file.sh \u2192 Change permissions\nchmod +x script.sh \u2192 Make executable\nchown user:user file.txt \u2192 Change owner\nls -l \u2192 View permissions\n5. Package Management (APT)\nsudo apt update \u2192 Refresh repo\nsudo apt upgrade \u2192 Upgrade system\nsudo apt install git \u2192 Install package",
+      "source": "/home/debanshu-gig/Downloads/Ubuntu_Linux_Developer_Command_Guide.pdf",
+      "created_at": "2026-02-05T10:51:30.408419"
+    },
+    "6a7f96c5-720c-421d-ae79-3d6a01e77e06": {
+      "chunk_id": "6a7f96c5-720c-421d-ae79-3d6a01e77e06",
+      "memory_id": "195526dd-0065-4cf2-9e82-b8f945cfac81",
+      "chunk_index": 1,
+      "chunk_text": "sudo apt remove git \u2192 Remove package\nsudo apt purge git \u2192 Remove config too\napt search nginx \u2192 Search package\napt show nginx \u2192 Package info\nsudo apt autoremove \u2192 Cleanup\n6. Install .deb File (Downloaded from Website)\ncd ~/Downloads\nsudo dpkg -i app.deb \u2192 Install deb\nsudo apt -f install \u2192 Fix dependencies\nsudo dpkg -r app \u2192 Remove deb app\n7. System Info & Monitoring\nuname -a \u2192 Kernel info\nlsb_release -a \u2192 OS info\ndf -h \u2192 Disk usage\ndu -sh folder \u2192 Folder size\nfree -h \u2192 RAM usage\ntop / htop \u2192 Process monitor\nuptime \u2192 System runtime\nwhoami \u2192 Current user\n8. Networking\nip a \u2192 Network interfaces\nip route \u2192 Routing table\nping google.com \u2192 Test internet\ncurl url \u2192 API call\nwget url \u2192 Download file\nss -tuln \u2192 Open ports\nnetstat -tuln \u2192 Legacy port list\n9. Process Management\nps aux \u2192 All processes\nkill PID \u2192 Kill process\nkill -9 PID \u2192 Force kill\npkill process \u2192 Kill by name\nbg / fg \u2192 Background / foreground\n10. Environment & Shell\nenv \u2192 Environment variables\nexport VAR=value \u2192 Set variable\necho $VAR \u2192 Read variable\nhistory \u2192 Command history\nclear \u2192 Clear terminal\nalias ll='ls -la' \u2192 Shortcut\nsource ~/.bashrc \u2192 Reload config\n11. Compression & Archives\ntar -czvf file.tar.gz folder/\ntar -xzvf file.tar.gz\nzip -r file.zip folder/\nunzip file.zip\n12. Disk & Mount\nlsblk \u2192 Disk list",
+      "source": "/home/debanshu-gig/Downloads/Ubuntu_Linux_Developer_Command_Guide.pdf",
+      "created_at": "2026-02-05T10:51:30.408419"
+    },
+    "0162cbd4-5cda-49b6-9b2e-17cbc47bddaf": {
+      "chunk_id": "0162cbd4-5cda-49b6-9b2e-17cbc47bddaf",
+      "memory_id": "195526dd-0065-4cf2-9e82-b8f945cfac81",
+      "chunk_index": 2,
+      "chunk_text": "mount \u2192 Mounted disks\numount /dev/sda1\n13. Git (Developer Mandatory)\ngit clone repo_url\ngit status\ngit add .\ngit commit -m 'msg'\ngit push\ngit pull\ngit branch\ngit checkout branch\n14. Docker (Modern Dev Mandatory)\ndocker --version\ndocker ps\ndocker ps -a\ndocker images\ndocker run image\ndocker stop container\ndocker rm container\ndocker rmi image\ndocker-compose up -d\n15. Power Commands (Danger Zone)\nsudo su \u2192 Root shell\nshutdown now\nreboot\nhistory -c \u2192 Clear history\nrm -rf / \u2192 NEVER RUN\nFinal Note\nIf you don\u2019t know these commands, you are not a serious Linux developer yet. Master these and Linux\nbecomes a weapon, not an obstacle.",
+      "source": "/home/debanshu-gig/Downloads/Ubuntu_Linux_Developer_Command_Guide.pdf",
+      "created_at": "2026-02-05T10:51:30.408419"
+    },
+    "d73e20ca-3515-4b14-b03a-7b6596e6c0ba": {
+      "chunk_id": "d73e20ca-3515-4b14-b03a-7b6596e6c0ba",
+      "memory_id": "275b0987-1ef0-4bd4-91e1-cdbb97e544fd",
+      "chunk_index": 0,
+      "chunk_text": "Ubuntu / Linux Essential Command Guide for Developers\nThis document is a no-nonsense, practical command reference for Ubuntu and Linux users. If you touch\nservers, containers, code, or terminals, these commands are mandatory knowledge.\n1. File & Folder Management\npwd \u2192 Show current directory\nls \u2192 List files\nls -la \u2192 List all files with permissions\ncd folder_name \u2192 Enter folder\ncd .. \u2192 Go back one level\ncd ~ \u2192 Go to home directory\nmkdir folder \u2192 Create folder\nmkdir -p parent/child/grandchild \u2192 Create nested folders\ntouch file.txt \u2192 Create empty file\ncp file.txt dest/ \u2192 Copy file\ncp -r folder dest/ \u2192 Copy folder\nmv file.txt newname.txt \u2192 Rename file\nmv file.txt folder/ \u2192 Move file\nrm file.txt \u2192 Delete file\nrm -r folder \u2192 Delete folder\nrm -rf folder \u2192 Force delete (danger)\nstat file.txt \u2192 File details\ntree \u2192 Folder structure view\n2. Locate Files & Folders\nfind / -name file.txt \u2192 Search file system\nfind . -type f \u2192 Find files\nfind . -type d \u2192 Find folders\nlocate file.txt \u2192 Fast search (needs updatedb)\nupdatedb \u2192 Update locate database\nwhich python \u2192 Command binary location\nwhereis python \u2192 Binary, source, man page\n3. File Viewing & Editing\ncat file.txt \u2192 View file\nless file.txt \u2192 Scroll view\nhead file.txt \u2192 First 10 lines\ntail file.txt \u2192 Last 10 lines\ntail -f log.txt \u2192 Live log view\nnano file.txt \u2192 Edit (beginner)\nvim file.txt \u2192 Edit (pro)\ncode . \u2192 Open VS Code\n4. Permissions & Ownership\nchmod 755 file.sh \u2192 Change permissions\nchmod +x script.sh \u2192 Make executable\nchown user:user file.txt \u2192 Change owner\nls -l \u2192 View permissions\n5. Package Management (APT)\nsudo apt update \u2192 Refresh repo\nsudo apt upgrade \u2192 Upgrade system\nsudo apt install git \u2192 Install package",
+      "source": "/home/debanshu-gig/Downloads/Ubuntu_Linux_Developer_Command_Guide.pdf",
+      "created_at": "2026-02-05T10:51:30.408446"
+    },
+    "43e7ffcb-169e-421e-90a9-ee4e53327bef": {
+      "chunk_id": "43e7ffcb-169e-421e-90a9-ee4e53327bef",
+      "memory_id": "275b0987-1ef0-4bd4-91e1-cdbb97e544fd",
+      "chunk_index": 1,
+      "chunk_text": "sudo apt remove git \u2192 Remove package\nsudo apt purge git \u2192 Remove config too\napt search nginx \u2192 Search package\napt show nginx \u2192 Package info\nsudo apt autoremove \u2192 Cleanup\n6. Install .deb File (Downloaded from Website)\ncd ~/Downloads\nsudo dpkg -i app.deb \u2192 Install deb\nsudo apt -f install \u2192 Fix dependencies\nsudo dpkg -r app \u2192 Remove deb app\n7. System Info & Monitoring\nuname -a \u2192 Kernel info\nlsb_release -a \u2192 OS info\ndf -h \u2192 Disk usage\ndu -sh folder \u2192 Folder size\nfree -h \u2192 RAM usage\ntop / htop \u2192 Process monitor\nuptime \u2192 System runtime\nwhoami \u2192 Current user\n8. Networking\nip a \u2192 Network interfaces\nip route \u2192 Routing table\nping google.com \u2192 Test internet\ncurl url \u2192 API call\nwget url \u2192 Download file\nss -tuln \u2192 Open ports\nnetstat -tuln \u2192 Legacy port list\n9. Process Management\nps aux \u2192 All processes\nkill PID \u2192 Kill process\nkill -9 PID \u2192 Force kill\npkill process \u2192 Kill by name\nbg / fg \u2192 Background / foreground\n10. Environment & Shell\nenv \u2192 Environment variables\nexport VAR=value \u2192 Set variable\necho $VAR \u2192 Read variable\nhistory \u2192 Command history\nclear \u2192 Clear terminal\nalias ll='ls -la' \u2192 Shortcut\nsource ~/.bashrc \u2192 Reload config\n11. Compression & Archives\ntar -czvf file.tar.gz folder/\ntar -xzvf file.tar.gz\nzip -r file.zip folder/\nunzip file.zip\n12. Disk & Mount\nlsblk \u2192 Disk list",
+      "source": "/home/debanshu-gig/Downloads/Ubuntu_Linux_Developer_Command_Guide.pdf",
+      "created_at": "2026-02-05T10:51:30.408446"
+    },
+    "80cddf14-9ba4-41c5-bef2-1e44d20834fe": {
+      "chunk_id": "80cddf14-9ba4-41c5-bef2-1e44d20834fe",
+      "memory_id": "275b0987-1ef0-4bd4-91e1-cdbb97e544fd",
+      "chunk_index": 2,
+      "chunk_text": "mount \u2192 Mounted disks\numount /dev/sda1\n13. Git (Developer Mandatory)\ngit clone repo_url\ngit status\ngit add .\ngit commit -m 'msg'\ngit push\ngit pull\ngit branch\ngit checkout branch\n14. Docker (Modern Dev Mandatory)\ndocker --version\ndocker ps\ndocker ps -a\ndocker images\ndocker run image\ndocker stop container\ndocker rm container\ndocker rmi image\ndocker-compose up -d\n15. Power Commands (Danger Zone)\nsudo su \u2192 Root shell\nshutdown now\nreboot\nhistory -c \u2192 Clear history\nrm -rf / \u2192 NEVER RUN\nFinal Note\nIf you don\u2019t know these commands, you are not a serious Linux developer yet. Master these and Linux\nbecomes a weapon, not an obstacle.",
+      "source": "/home/debanshu-gig/Downloads/Ubuntu_Linux_Developer_Command_Guide.pdf",
+      "created_at": "2026-02-05T10:51:30.408446"
+    },
+    "2a30525e-74d2-4f16-9ec7-4c2f3a8ce9de": {
+      "chunk_id": "2a30525e-74d2-4f16-9ec7-4c2f3a8ce9de",
+      "memory_id": "11e603f2-9508-4207-abf2-9d704d8ce7d6",
+      "chunk_index": 0,
+      "chunk_text": "Ubuntu / Linux Essential Command Guide for Developers\nThis document is a no-nonsense, practical command reference for Ubuntu and Linux users. If you touch\nservers, containers, code, or terminals, these commands are mandatory knowledge.\n1. File & Folder Management\npwd \u2192 Show current directory\nls \u2192 List files\nls -la \u2192 List all files with permissions\ncd folder_name \u2192 Enter folder\ncd .. \u2192 Go back one level\ncd ~ \u2192 Go to home directory\nmkdir folder \u2192 Create folder\nmkdir -p parent/child/grandchild \u2192 Create nested folders\ntouch file.txt \u2192 Create empty file\ncp file.txt dest/ \u2192 Copy file\ncp -r folder dest/ \u2192 Copy folder\nmv file.txt newname.txt \u2192 Rename file\nmv file.txt folder/ \u2192 Move file\nrm file.txt \u2192 Delete file\nrm -r folder \u2192 Delete folder\nrm -rf folder \u2192 Force delete (danger)\nstat file.txt \u2192 File details\ntree \u2192 Folder structure view\n2. Locate Files & Folders\nfind / -name file.txt \u2192 Search file system\nfind . -type f \u2192 Find files\nfind . -type d \u2192 Find folders\nlocate file.txt \u2192 Fast search (needs updatedb)\nupdatedb \u2192 Update locate database\nwhich python \u2192 Command binary location\nwhereis python \u2192 Binary, source, man page\n3. File Viewing & Editing\ncat file.txt \u2192 View file\nless file.txt \u2192 Scroll view\nhead file.txt \u2192 First 10 lines\ntail file.txt \u2192 Last 10 lines\ntail -f log.txt \u2192 Live log view\nnano file.txt \u2192 Edit (beginner)\nvim file.txt \u2192 Edit (pro)\ncode . \u2192 Open VS Code\n4. Permissions & Ownership\nchmod 755 file.sh \u2192 Change permissions\nchmod +x script.sh \u2192 Make executable\nchown user:user file.txt \u2192 Change owner\nls -l \u2192 View permissions\n5. Package Management (APT)\nsudo apt update \u2192 Refresh repo\nsudo apt upgrade \u2192 Upgrade system\nsudo apt install git \u2192 Install package",
+      "source": "/home/debanshu-gig/Downloads/Ubuntu_Linux_Developer_Command_Guide.pdf",
+      "created_at": "2026-02-05T10:51:30.408470"
+    },
+    "d09a82ff-4a02-4a05-8fe8-6620bfa70aa1": {
+      "chunk_id": "d09a82ff-4a02-4a05-8fe8-6620bfa70aa1",
+      "memory_id": "11e603f2-9508-4207-abf2-9d704d8ce7d6",
+      "chunk_index": 1,
+      "chunk_text": "sudo apt remove git \u2192 Remove package\nsudo apt purge git \u2192 Remove config too\napt search nginx \u2192 Search package\napt show nginx \u2192 Package info\nsudo apt autoremove \u2192 Cleanup\n6. Install .deb File (Downloaded from Website)\ncd ~/Downloads\nsudo dpkg -i app.deb \u2192 Install deb\nsudo apt -f install \u2192 Fix dependencies\nsudo dpkg -r app \u2192 Remove deb app\n7. System Info & Monitoring\nuname -a \u2192 Kernel info\nlsb_release -a \u2192 OS info\ndf -h \u2192 Disk usage\ndu -sh folder \u2192 Folder size\nfree -h \u2192 RAM usage\ntop / htop \u2192 Process monitor\nuptime \u2192 System runtime\nwhoami \u2192 Current user\n8. Networking\nip a \u2192 Network interfaces\nip route \u2192 Routing table\nping google.com \u2192 Test internet\ncurl url \u2192 API call\nwget url \u2192 Download file\nss -tuln \u2192 Open ports\nnetstat -tuln \u2192 Legacy port list\n9. Process Management\nps aux \u2192 All processes\nkill PID \u2192 Kill process\nkill -9 PID \u2192 Force kill\npkill process \u2192 Kill by name\nbg / fg \u2192 Background / foreground\n10. Environment & Shell\nenv \u2192 Environment variables\nexport VAR=value \u2192 Set variable\necho $VAR \u2192 Read variable\nhistory \u2192 Command history\nclear \u2192 Clear terminal\nalias ll='ls -la' \u2192 Shortcut\nsource ~/.bashrc \u2192 Reload config\n11. Compression & Archives\ntar -czvf file.tar.gz folder/\ntar -xzvf file.tar.gz\nzip -r file.zip folder/\nunzip file.zip\n12. Disk & Mount\nlsblk \u2192 Disk list",
+      "source": "/home/debanshu-gig/Downloads/Ubuntu_Linux_Developer_Command_Guide.pdf",
+      "created_at": "2026-02-05T10:51:30.408470"
+    },
+    "bd57b8d3-ae5b-449e-a4f5-4f6e5373cf27": {
+      "chunk_id": "bd57b8d3-ae5b-449e-a4f5-4f6e5373cf27",
+      "memory_id": "11e603f2-9508-4207-abf2-9d704d8ce7d6",
+      "chunk_index": 2,
+      "chunk_text": "mount \u2192 Mounted disks\numount /dev/sda1\n13. Git (Developer Mandatory)\ngit clone repo_url\ngit status\ngit add .\ngit commit -m 'msg'\ngit push\ngit pull\ngit branch\ngit checkout branch\n14. Docker (Modern Dev Mandatory)\ndocker --version\ndocker ps\ndocker ps -a\ndocker images\ndocker run image\ndocker stop container\ndocker rm container\ndocker rmi image\ndocker-compose up -d\n15. Power Commands (Danger Zone)\nsudo su \u2192 Root shell\nshutdown now\nreboot\nhistory -c \u2192 Clear history\nrm -rf / \u2192 NEVER RUN\nFinal Note\nIf you don\u2019t know these commands, you are not a serious Linux developer yet. Master these and Linux\nbecomes a weapon, not an obstacle.",
+      "source": "/home/debanshu-gig/Downloads/Ubuntu_Linux_Developer_Command_Guide.pdf",
+      "created_at": "2026-02-05T10:51:30.408470"
+    },
+    "e370b01d-6a15-4315-ac1d-fcf59584f36b": {
+      "chunk_id": "e370b01d-6a15-4315-ac1d-fcf59584f36b",
+      "memory_id": "0bd59e17-f6b6-45db-9ec3-26fa74b3f080",
+      "chunk_index": 0,
+      "chunk_text": "My food delivery startup failed because delivery costs were too high\nand logistics delays caused customer dissatisfaction.",
+      "source": "data/sample_document.txt",
+      "created_at": "2026-02-05T10:51:30.408494"
+    },
+    "98ea3faa-551c-4b87-97d5-2d4449befcec": {
+      "chunk_id": "98ea3faa-551c-4b87-97d5-2d4449befcec",
+      "memory_id": "e58995d5-061f-400c-ae04-6120846b75ed",
+      "chunk_index": 0,
+      "chunk_text": "My food delivery startup failed because delivery costs were too high\nand logistics delays caused customer dissatisfaction.",
+      "source": "data/sample_document.txt",
+      "created_at": "2026-02-05T10:51:30.408499"
+    },
+    "40d7d1fe-0a74-45ff-8a0e-6deae22ded4f": {
+      "chunk_id": "40d7d1fe-0a74-45ff-8a0e-6deae22ded4f",
+      "memory_id": "dea1d898-ecc8-49b4-adca-49b4403002f3",
+      "chunk_index": 0,
+      "chunk_text": "My food delivery startup failed because delivery costs were too high\nand logistics delays caused customer dissatisfaction.",
+      "source": "data/sample_document.txt",
+      "created_at": "2026-02-05T10:51:30.408504"
+    },
+    "10feec39-7d5c-41bd-abd2-279d70fead4d": {
+      "chunk_id": "10feec39-7d5c-41bd-abd2-279d70fead4d",
+      "memory_id": "118f2f88-b18b-456b-a2bd-c743f864328b",
+      "chunk_index": 0,
+      "chunk_text": "My food delivery startup failed because delivery costs were too high\nand logistics delays caused customer dissatisfaction.",
+      "source": "data/sample_document.txt",
+      "created_at": "2026-02-05T10:51:30.408508"
+    },
+    "978d3602-87e7-4ef0-af1c-4870e91098e2": {
+      "chunk_id": "978d3602-87e7-4ef0-af1c-4870e91098e2",
+      "memory_id": "bd0adff7-2eff-4114-ac54-7792351b0596",
+      "chunk_index": 0,
+      "chunk_text": "My food delivery startup failed because delivery costs were too high\nand logistics delays caused customer dissatisfaction.",
+      "source": "data/sample_document.txt",
+      "created_at": "2026-02-05T10:51:30.408513"
+    },
+    "cd687659-e10d-4eca-9e45-5102fc463a32": {
+      "chunk_id": "cd687659-e10d-4eca-9e45-5102fc463a32",
+      "memory_id": "8b74f749-e527-4729-9f0e-1321150727e7",
+      "chunk_index": 0,
+      "chunk_text": "My food delivery startup failed because delivery costs were too high\nand logistics delays caused customer dissatisfaction.",
+      "source": "data/sample_document.txt",
+      "created_at": "2026-02-05T10:51:30.408517"
+    },
+    "00e6dbaf-69ea-4bd6-bc57-073185b200c5": {
+      "chunk_id": "00e6dbaf-69ea-4bd6-bc57-073185b200c5",
+      "memory_id": "e9641cdb-6af0-4e44-ba87-9ec714e2c711",
+      "chunk_index": 0,
+      "chunk_text": "My food delivery startup failed because delivery costs were too high\nand logistics delays caused customer dissatisfaction.",
+      "source": "data/sample_document.txt",
+      "created_at": "2026-02-05T10:51:30.408521"
+    },
+    "29994c51-19b0-4a3d-b13f-363a496a1fba": {
+      "chunk_id": "29994c51-19b0-4a3d-b13f-363a496a1fba",
+      "memory_id": "dd503670-2f7d-4256-8386-f8b7f26b3093",
+      "chunk_index": 0,
+      "chunk_text": "hello im your creator deba-glitch",
+      "source": "manual_cli",
+      "created_at": "2026-02-05T10:54:51.371673"
+    },
+    "fdaf81a6-d592-446b-a3df-e175b01eb373": {
+      "chunk_id": "fdaf81a6-d592-446b-a3df-e175b01eb373",
+      "memory_id": "4ac6f7fc-23c7-426a-8a44-6d46a119967f",
+      "chunk_index": 0,
+      "chunk_text": "your pourpose is help me read big pdf etc and tell me the crust of that information",
+      "source": "manual_cli",
+      "created_at": "2026-02-05T10:54:51.371726"
+    },
+    "85e5cc32-0d97-43d0-8d4c-e529e17e8993": {
+      "chunk_id": "85e5cc32-0d97-43d0-8d4c-e529e17e8993",
+      "memory_id": "842b0af2-19e6-4fc7-b402-9bdb97107911",
+      "chunk_index": 0,
+      "chunk_text": "food delivery startup failed logistics",
+      "source": "manual_cli",
+      "created_at": "2026-02-05T10:54:51.371746"
+    },
+    "79ca1904-6f73-45c1-b1d1-507c40b14a7b": {
+      "chunk_id": "79ca1904-6f73-45c1-b1d1-507c40b14a7b",
+      "memory_id": "3ea4e439-c8e3-4c83-9801-42c89fe1a976",
+      "chunk_index": 0,
+      "chunk_text": "Ubuntu / Linux Essential Command Guide for Developers\nThis document is a no-nonsense, practical command reference for Ubuntu and Linux users. If you touch\nservers, containers, code, or terminals, these commands are mandatory knowledge.\n1. File & Folder Management\npwd \u2192 Show current directory\nls \u2192 List files\nls -la \u2192 List all files with permissions\ncd folder_name \u2192 Enter folder\ncd .. \u2192 Go back one level\ncd ~ \u2192 Go to home directory\nmkdir folder \u2192 Create folder\nmkdir -p parent/child/grandchild \u2192 Create nested folders\ntouch file.txt \u2192 Create empty file\ncp file.txt dest/ \u2192 Copy file\ncp -r folder dest/ \u2192 Copy folder\nmv file.txt newname.txt \u2192 Rename file\nmv file.txt folder/ \u2192 Move file\nrm file.txt \u2192 Delete file\nrm -r folder \u2192 Delete folder\nrm -rf folder \u2192 Force delete (danger)\nstat file.txt \u2192 File details\ntree \u2192 Folder structure view\n2. Locate Files & Folders\nfind / -name file.txt \u2192 Search file system\nfind . -type f \u2192 Find files\nfind . -type d \u2192 Find folders\nlocate file.txt \u2192 Fast search (needs updatedb)\nupdatedb \u2192 Update locate database\nwhich python \u2192 Command binary location\nwhereis python \u2192 Binary, source, man page\n3. File Viewing & Editing\ncat file.txt \u2192 View file\nless file.txt \u2192 Scroll view\nhead file.txt \u2192 First 10 lines\ntail file.txt \u2192 Last 10 lines\ntail -f log.txt \u2192 Live log view\nnano file.txt \u2192 Edit (beginner)\nvim file.txt \u2192 Edit (pro)\ncode . \u2192 Open VS Code\n4. Permissions & Ownership\nchmod 755 file.sh \u2192 Change permissions\nchmod +x script.sh \u2192 Make executable\nchown user:user file.txt \u2192 Change owner\nls -l \u2192 View permissions\n5. Package Management (APT)\nsudo apt update \u2192 Refresh repo\nsudo apt upgrade \u2192 Upgrade system\nsudo apt install git \u2192 Install package",
+      "source": "/home/debanshu-gig/Downloads/Ubuntu_Linux_Developer_Command_Guide.pdf",
+      "created_at": "2026-02-05T10:54:51.371758"
+    },
+    "948a68f5-ed1c-45f4-9707-10da9151461f": {
+      "chunk_id": "948a68f5-ed1c-45f4-9707-10da9151461f",
+      "memory_id": "3ea4e439-c8e3-4c83-9801-42c89fe1a976",
+      "chunk_index": 1,
+      "chunk_text": "sudo apt remove git \u2192 Remove package\nsudo apt purge git \u2192 Remove config too\napt search nginx \u2192 Search package\napt show nginx \u2192 Package info\nsudo apt autoremove \u2192 Cleanup\n6. Install .deb File (Downloaded from Website)\ncd ~/Downloads\nsudo dpkg -i app.deb \u2192 Install deb\nsudo apt -f install \u2192 Fix dependencies\nsudo dpkg -r app \u2192 Remove deb app\n7. System Info & Monitoring\nuname -a \u2192 Kernel info\nlsb_release -a \u2192 OS info\ndf -h \u2192 Disk usage\ndu -sh folder \u2192 Folder size\nfree -h \u2192 RAM usage\ntop / htop \u2192 Process monitor\nuptime \u2192 System runtime\nwhoami \u2192 Current user\n8. Networking\nip a \u2192 Network interfaces\nip route \u2192 Routing table\nping google.com \u2192 Test internet\ncurl url \u2192 API call\nwget url \u2192 Download file\nss -tuln \u2192 Open ports\nnetstat -tuln \u2192 Legacy port list\n9. Process Management\nps aux \u2192 All processes\nkill PID \u2192 Kill process\nkill -9 PID \u2192 Force kill\npkill process \u2192 Kill by name\nbg / fg \u2192 Background / foreground\n10. Environment & Shell\nenv \u2192 Environment variables\nexport VAR=value \u2192 Set variable\necho $VAR \u2192 Read variable\nhistory \u2192 Command history\nclear \u2192 Clear terminal\nalias ll='ls -la' \u2192 Shortcut\nsource ~/.bashrc \u2192 Reload config\n11. Compression & Archives\ntar -czvf file.tar.gz folder/\ntar -xzvf file.tar.gz\nzip -r file.zip folder/\nunzip file.zip\n12. Disk & Mount\nlsblk \u2192 Disk list",
+      "source": "/home/debanshu-gig/Downloads/Ubuntu_Linux_Developer_Command_Guide.pdf",
+      "created_at": "2026-02-05T10:54:51.371758"
+    },
+    "748d7ac3-fb5b-47cf-8994-2934da3d20c4": {
+      "chunk_id": "748d7ac3-fb5b-47cf-8994-2934da3d20c4",
+      "memory_id": "3ea4e439-c8e3-4c83-9801-42c89fe1a976",
+      "chunk_index": 2,
+      "chunk_text": "mount \u2192 Mounted disks\numount /dev/sda1\n13. Git (Developer Mandatory)\ngit clone repo_url\ngit status\ngit add .\ngit commit -m 'msg'\ngit push\ngit pull\ngit branch\ngit checkout branch\n14. Docker (Modern Dev Mandatory)\ndocker --version\ndocker ps\ndocker ps -a\ndocker images\ndocker run image\ndocker stop container\ndocker rm container\ndocker rmi image\ndocker-compose up -d\n15. Power Commands (Danger Zone)\nsudo su \u2192 Root shell\nshutdown now\nreboot\nhistory -c \u2192 Clear history\nrm -rf / \u2192 NEVER RUN\nFinal Note\nIf you don\u2019t know these commands, you are not a serious Linux developer yet. Master these and Linux\nbecomes a weapon, not an obstacle.",
+      "source": "/home/debanshu-gig/Downloads/Ubuntu_Linux_Developer_Command_Guide.pdf",
+      "created_at": "2026-02-05T10:54:51.371758"
+    },
+    "609e14e2-308e-40b0-b041-a657d537ace1": {
+      "chunk_id": "609e14e2-308e-40b0-b041-a657d537ace1",
+      "memory_id": "18dafe7f-1042-4dd3-8a87-87ccb9d672b1",
+      "chunk_index": 0,
+      "chunk_text": "Ubuntu / Linux Essential Command Guide for Developers\nThis document is a no-nonsense, practical command reference for Ubuntu and Linux users. If you touch\nservers, containers, code, or terminals, these commands are mandatory knowledge.\n1. File & Folder Management\npwd \u2192 Show current directory\nls \u2192 List files\nls -la \u2192 List all files with permissions\ncd folder_name \u2192 Enter folder\ncd .. \u2192 Go back one level\ncd ~ \u2192 Go to home directory\nmkdir folder \u2192 Create folder\nmkdir -p parent/child/grandchild \u2192 Create nested folders\ntouch file.txt \u2192 Create empty file\ncp file.txt dest/ \u2192 Copy file\ncp -r folder dest/ \u2192 Copy folder\nmv file.txt newname.txt \u2192 Rename file\nmv file.txt folder/ \u2192 Move file\nrm file.txt \u2192 Delete file\nrm -r folder \u2192 Delete folder\nrm -rf folder \u2192 Force delete (danger)\nstat file.txt \u2192 File details\ntree \u2192 Folder structure view\n2. Locate Files & Folders\nfind / -name file.txt \u2192 Search file system\nfind . -type f \u2192 Find files\nfind . -type d \u2192 Find folders\nlocate file.txt \u2192 Fast search (needs updatedb)\nupdatedb \u2192 Update locate database\nwhich python \u2192 Command binary location\nwhereis python \u2192 Binary, source, man page\n3. File Viewing & Editing\ncat file.txt \u2192 View file\nless file.txt \u2192 Scroll view\nhead file.txt \u2192 First 10 lines\ntail file.txt \u2192 Last 10 lines\ntail -f log.txt \u2192 Live log view\nnano file.txt \u2192 Edit (beginner)\nvim file.txt \u2192 Edit (pro)\ncode . \u2192 Open VS Code\n4. Permissions & Ownership\nchmod 755 file.sh \u2192 Change permissions\nchmod +x script.sh \u2192 Make executable\nchown user:user file.txt \u2192 Change owner\nls -l \u2192 View permissions\n5. Package Management (APT)\nsudo apt update \u2192 Refresh repo\nsudo apt upgrade \u2192 Upgrade system\nsudo apt install git \u2192 Install package",
+      "source": "/home/debanshu-gig/Downloads/Ubuntu_Linux_Developer_Command_Guide.pdf",
+      "created_at": "2026-02-05T10:54:51.371839"
+    },
+    "c4204263-180d-49a4-aa31-e9940b89faad": {
+      "chunk_id": "c4204263-180d-49a4-aa31-e9940b89faad",
+      "memory_id": "18dafe7f-1042-4dd3-8a87-87ccb9d672b1",
+      "chunk_index": 1,
+      "chunk_text": "sudo apt remove git \u2192 Remove package\nsudo apt purge git \u2192 Remove config too\napt search nginx \u2192 Search package\napt show nginx \u2192 Package info\nsudo apt autoremove \u2192 Cleanup\n6. Install .deb File (Downloaded from Website)\ncd ~/Downloads\nsudo dpkg -i app.deb \u2192 Install deb\nsudo apt -f install \u2192 Fix dependencies\nsudo dpkg -r app \u2192 Remove deb app\n7. System Info & Monitoring\nuname -a \u2192 Kernel info\nlsb_release -a \u2192 OS info\ndf -h \u2192 Disk usage\ndu -sh folder \u2192 Folder size\nfree -h \u2192 RAM usage\ntop / htop \u2192 Process monitor\nuptime \u2192 System runtime\nwhoami \u2192 Current user\n8. Networking\nip a \u2192 Network interfaces\nip route \u2192 Routing table\nping google.com \u2192 Test internet\ncurl url \u2192 API call\nwget url \u2192 Download file\nss -tuln \u2192 Open ports\nnetstat -tuln \u2192 Legacy port list\n9. Process Management\nps aux \u2192 All processes\nkill PID \u2192 Kill process\nkill -9 PID \u2192 Force kill\npkill process \u2192 Kill by name\nbg / fg \u2192 Background / foreground\n10. Environment & Shell\nenv \u2192 Environment variables\nexport VAR=value \u2192 Set variable\necho $VAR \u2192 Read variable\nhistory \u2192 Command history\nclear \u2192 Clear terminal\nalias ll='ls -la' \u2192 Shortcut\nsource ~/.bashrc \u2192 Reload config\n11. Compression & Archives\ntar -czvf file.tar.gz folder/\ntar -xzvf file.tar.gz\nzip -r file.zip folder/\nunzip file.zip\n12. Disk & Mount\nlsblk \u2192 Disk list",
+      "source": "/home/debanshu-gig/Downloads/Ubuntu_Linux_Developer_Command_Guide.pdf",
+      "created_at": "2026-02-05T10:54:51.371839"
+    },
+    "2d10cc5a-c41f-42aa-a1b4-c90b9ca11ece": {
+      "chunk_id": "2d10cc5a-c41f-42aa-a1b4-c90b9ca11ece",
+      "memory_id": "18dafe7f-1042-4dd3-8a87-87ccb9d672b1",
+      "chunk_index": 2,
+      "chunk_text": "mount \u2192 Mounted disks\numount /dev/sda1\n13. Git (Developer Mandatory)\ngit clone repo_url\ngit status\ngit add .\ngit commit -m 'msg'\ngit push\ngit pull\ngit branch\ngit checkout branch\n14. Docker (Modern Dev Mandatory)\ndocker --version\ndocker ps\ndocker ps -a\ndocker images\ndocker run image\ndocker stop container\ndocker rm container\ndocker rmi image\ndocker-compose up -d\n15. Power Commands (Danger Zone)\nsudo su \u2192 Root shell\nshutdown now\nreboot\nhistory -c \u2192 Clear history\nrm -rf / \u2192 NEVER RUN\nFinal Note\nIf you don\u2019t know these commands, you are not a serious Linux developer yet. Master these and Linux\nbecomes a weapon, not an obstacle.",
+      "source": "/home/debanshu-gig/Downloads/Ubuntu_Linux_Developer_Command_Guide.pdf",
+      "created_at": "2026-02-05T10:54:51.371839"
+    },
+    "e8a06de5-3322-4e79-b032-400d51e17b90": {
+      "chunk_id": "e8a06de5-3322-4e79-b032-400d51e17b90",
+      "memory_id": "195526dd-0065-4cf2-9e82-b8f945cfac81",
+      "chunk_index": 0,
+      "chunk_text": "Ubuntu / Linux Essential Command Guide for Developers\nThis document is a no-nonsense, practical command reference for Ubuntu and Linux users. If you touch\nservers, containers, code, or terminals, these commands are mandatory knowledge.\n1. File & Folder Management\npwd \u2192 Show current directory\nls \u2192 List files\nls -la \u2192 List all files with permissions\ncd folder_name \u2192 Enter folder\ncd .. \u2192 Go back one level\ncd ~ \u2192 Go to home directory\nmkdir folder \u2192 Create folder\nmkdir -p parent/child/grandchild \u2192 Create nested folders\ntouch file.txt \u2192 Create empty file\ncp file.txt dest/ \u2192 Copy file\ncp -r folder dest/ \u2192 Copy folder\nmv file.txt newname.txt \u2192 Rename file\nmv file.txt folder/ \u2192 Move file\nrm file.txt \u2192 Delete file\nrm -r folder \u2192 Delete folder\nrm -rf folder \u2192 Force delete (danger)\nstat file.txt \u2192 File details\ntree \u2192 Folder structure view\n2. Locate Files & Folders\nfind / -name file.txt \u2192 Search file system\nfind . -type f \u2192 Find files\nfind . -type d \u2192 Find folders\nlocate file.txt \u2192 Fast search (needs updatedb)\nupdatedb \u2192 Update locate database\nwhich python \u2192 Command binary location\nwhereis python \u2192 Binary, source, man page\n3. File Viewing & Editing\ncat file.txt \u2192 View file\nless file.txt \u2192 Scroll view\nhead file.txt \u2192 First 10 lines\ntail file.txt \u2192 Last 10 lines\ntail -f log.txt \u2192 Live log view\nnano file.txt \u2192 Edit (beginner)\nvim file.txt \u2192 Edit (pro)\ncode . \u2192 Open VS Code\n4. Permissions & Ownership\nchmod 755 file.sh \u2192 Change permissions\nchmod +x script.sh \u2192 Make executable\nchown user:user file.txt \u2192 Change owner\nls -l \u2192 View permissions\n5. Package Management (APT)\nsudo apt update \u2192 Refresh repo\nsudo apt upgrade \u2192 Upgrade system\nsudo apt install git \u2192 Install package",
+      "source": "/home/debanshu-gig/Downloads/Ubuntu_Linux_Developer_Command_Guide.pdf",
+      "created_at": "2026-02-05T10:54:51.371896"
+    },
+    "22946d19-5d5f-44be-af0c-91beb0aed4d3": {
+      "chunk_id": "22946d19-5d5f-44be-af0c-91beb0aed4d3",
+      "memory_id": "195526dd-0065-4cf2-9e82-b8f945cfac81",
+      "chunk_index": 1,
+      "chunk_text": "sudo apt remove git \u2192 Remove package\nsudo apt purge git \u2192 Remove config too\napt search nginx \u2192 Search package\napt show nginx \u2192 Package info\nsudo apt autoremove \u2192 Cleanup\n6. Install .deb File (Downloaded from Website)\ncd ~/Downloads\nsudo dpkg -i app.deb \u2192 Install deb\nsudo apt -f install \u2192 Fix dependencies\nsudo dpkg -r app \u2192 Remove deb app\n7. System Info & Monitoring\nuname -a \u2192 Kernel info\nlsb_release -a \u2192 OS info\ndf -h \u2192 Disk usage\ndu -sh folder \u2192 Folder size\nfree -h \u2192 RAM usage\ntop / htop \u2192 Process monitor\nuptime \u2192 System runtime\nwhoami \u2192 Current user\n8. Networking\nip a \u2192 Network interfaces\nip route \u2192 Routing table\nping google.com \u2192 Test internet\ncurl url \u2192 API call\nwget url \u2192 Download file\nss -tuln \u2192 Open ports\nnetstat -tuln \u2192 Legacy port list\n9. Process Management\nps aux \u2192 All processes\nkill PID \u2192 Kill process\nkill -9 PID \u2192 Force kill\npkill process \u2192 Kill by name\nbg / fg \u2192 Background / foreground\n10. Environment & Shell\nenv \u2192 Environment variables\nexport VAR=value \u2192 Set variable\necho $VAR \u2192 Read variable\nhistory \u2192 Command history\nclear \u2192 Clear terminal\nalias ll='ls -la' \u2192 Shortcut\nsource ~/.bashrc \u2192 Reload config\n11. Compression & Archives\ntar -czvf file.tar.gz folder/\ntar -xzvf file.tar.gz\nzip -r file.zip folder/\nunzip file.zip\n12. Disk & Mount\nlsblk \u2192 Disk list",
+      "source": "/home/debanshu-gig/Downloads/Ubuntu_Linux_Developer_Command_Guide.pdf",
+      "created_at": "2026-02-05T10:54:51.371896"
+    },
+    "6909fdfa-3f1f-4140-ba52-b188076fcbe8": {
+      "chunk_id": "6909fdfa-3f1f-4140-ba52-b188076fcbe8",
+      "memory_id": "195526dd-0065-4cf2-9e82-b8f945cfac81",
+      "chunk_index": 2,
+      "chunk_text": "mount \u2192 Mounted disks\numount /dev/sda1\n13. Git (Developer Mandatory)\ngit clone repo_url\ngit status\ngit add .\ngit commit -m 'msg'\ngit push\ngit pull\ngit branch\ngit checkout branch\n14. Docker (Modern Dev Mandatory)\ndocker --version\ndocker ps\ndocker ps -a\ndocker images\ndocker run image\ndocker stop container\ndocker rm container\ndocker rmi image\ndocker-compose up -d\n15. Power Commands (Danger Zone)\nsudo su \u2192 Root shell\nshutdown now\nreboot\nhistory -c \u2192 Clear history\nrm -rf / \u2192 NEVER RUN\nFinal Note\nIf you don\u2019t know these commands, you are not a serious Linux developer yet. Master these and Linux\nbecomes a weapon, not an obstacle.",
+      "source": "/home/debanshu-gig/Downloads/Ubuntu_Linux_Developer_Command_Guide.pdf",
+      "created_at": "2026-02-05T10:54:51.371896"
+    },
+    "ae772187-b69f-4fed-a3fb-eaaf9d1ef3d4": {
+      "chunk_id": "ae772187-b69f-4fed-a3fb-eaaf9d1ef3d4",
+      "memory_id": "275b0987-1ef0-4bd4-91e1-cdbb97e544fd",
+      "chunk_index": 0,
+      "chunk_text": "Ubuntu / Linux Essential Command Guide for Developers\nThis document is a no-nonsense, practical command reference for Ubuntu and Linux users. If you touch\nservers, containers, code, or terminals, these commands are mandatory knowledge.\n1. File & Folder Management\npwd \u2192 Show current directory\nls \u2192 List files\nls -la \u2192 List all files with permissions\ncd folder_name \u2192 Enter folder\ncd .. \u2192 Go back one level\ncd ~ \u2192 Go to home directory\nmkdir folder \u2192 Create folder\nmkdir -p parent/child/grandchild \u2192 Create nested folders\ntouch file.txt \u2192 Create empty file\ncp file.txt dest/ \u2192 Copy file\ncp -r folder dest/ \u2192 Copy folder\nmv file.txt newname.txt \u2192 Rename file\nmv file.txt folder/ \u2192 Move file\nrm file.txt \u2192 Delete file\nrm -r folder \u2192 Delete folder\nrm -rf folder \u2192 Force delete (danger)\nstat file.txt \u2192 File details\ntree \u2192 Folder structure view\n2. Locate Files & Folders\nfind / -name file.txt \u2192 Search file system\nfind . -type f \u2192 Find files\nfind . -type d \u2192 Find folders\nlocate file.txt \u2192 Fast search (needs updatedb)\nupdatedb \u2192 Update locate database\nwhich python \u2192 Command binary location\nwhereis python \u2192 Binary, source, man page\n3. File Viewing & Editing\ncat file.txt \u2192 View file\nless file.txt \u2192 Scroll view\nhead file.txt \u2192 First 10 lines\ntail file.txt \u2192 Last 10 lines\ntail -f log.txt \u2192 Live log view\nnano file.txt \u2192 Edit (beginner)\nvim file.txt \u2192 Edit (pro)\ncode . \u2192 Open VS Code\n4. Permissions & Ownership\nchmod 755 file.sh \u2192 Change permissions\nchmod +x script.sh \u2192 Make executable\nchown user:user file.txt \u2192 Change owner\nls -l \u2192 View permissions\n5. Package Management (APT)\nsudo apt update \u2192 Refresh repo\nsudo apt upgrade \u2192 Upgrade system\nsudo apt install git \u2192 Install package",
+      "source": "/home/debanshu-gig/Downloads/Ubuntu_Linux_Developer_Command_Guide.pdf",
+      "created_at": "2026-02-05T10:54:51.371948"
+    },
+    "c1746acb-3aac-4cd1-83de-ec8582b3b5a9": {
+      "chunk_id": "c1746acb-3aac-4cd1-83de-ec8582b3b5a9",
+      "memory_id": "275b0987-1ef0-4bd4-91e1-cdbb97e544fd",
+      "chunk_index": 1,
+      "chunk_text": "sudo apt remove git \u2192 Remove package\nsudo apt purge git \u2192 Remove config too\napt search nginx \u2192 Search package\napt show nginx \u2192 Package info\nsudo apt autoremove \u2192 Cleanup\n6. Install .deb File (Downloaded from Website)\ncd ~/Downloads\nsudo dpkg -i app.deb \u2192 Install deb\nsudo apt -f install \u2192 Fix dependencies\nsudo dpkg -r app \u2192 Remove deb app\n7. System Info & Monitoring\nuname -a \u2192 Kernel info\nlsb_release -a \u2192 OS info\ndf -h \u2192 Disk usage\ndu -sh folder \u2192 Folder size\nfree -h \u2192 RAM usage\ntop / htop \u2192 Process monitor\nuptime \u2192 System runtime\nwhoami \u2192 Current user\n8. Networking\nip a \u2192 Network interfaces\nip route \u2192 Routing table\nping google.com \u2192 Test internet\ncurl url \u2192 API call\nwget url \u2192 Download file\nss -tuln \u2192 Open ports\nnetstat -tuln \u2192 Legacy port list\n9. Process Management\nps aux \u2192 All processes\nkill PID \u2192 Kill process\nkill -9 PID \u2192 Force kill\npkill process \u2192 Kill by name\nbg / fg \u2192 Background / foreground\n10. Environment & Shell\nenv \u2192 Environment variables\nexport VAR=value \u2192 Set variable\necho $VAR \u2192 Read variable\nhistory \u2192 Command history\nclear \u2192 Clear terminal\nalias ll='ls -la' \u2192 Shortcut\nsource ~/.bashrc \u2192 Reload config\n11. Compression & Archives\ntar -czvf file.tar.gz folder/\ntar -xzvf file.tar.gz\nzip -r file.zip folder/\nunzip file.zip\n12. Disk & Mount\nlsblk \u2192 Disk list",
+      "source": "/home/debanshu-gig/Downloads/Ubuntu_Linux_Developer_Command_Guide.pdf",
+      "created_at": "2026-02-05T10:54:51.371948"
+    },
+    "9b0403cf-24e5-4e05-82bc-24195ed7ab5a": {
+      "chunk_id": "9b0403cf-24e5-4e05-82bc-24195ed7ab5a",
+      "memory_id": "275b0987-1ef0-4bd4-91e1-cdbb97e544fd",
+      "chunk_index": 2,
+      "chunk_text": "mount \u2192 Mounted disks\numount /dev/sda1\n13. Git (Developer Mandatory)\ngit clone repo_url\ngit status\ngit add .\ngit commit -m 'msg'\ngit push\ngit pull\ngit branch\ngit checkout branch\n14. Docker (Modern Dev Mandatory)\ndocker --version\ndocker ps\ndocker ps -a\ndocker images\ndocker run image\ndocker stop container\ndocker rm container\ndocker rmi image\ndocker-compose up -d\n15. Power Commands (Danger Zone)\nsudo su \u2192 Root shell\nshutdown now\nreboot\nhistory -c \u2192 Clear history\nrm -rf / \u2192 NEVER RUN\nFinal Note\nIf you don\u2019t know these commands, you are not a serious Linux developer yet. Master these and Linux\nbecomes a weapon, not an obstacle.",
+      "source": "/home/debanshu-gig/Downloads/Ubuntu_Linux_Developer_Command_Guide.pdf",
+      "created_at": "2026-02-05T10:54:51.371948"
+    },
+    "a617aeeb-f76f-4d37-88db-c3a1889b0b09": {
+      "chunk_id": "a617aeeb-f76f-4d37-88db-c3a1889b0b09",
+      "memory_id": "11e603f2-9508-4207-abf2-9d704d8ce7d6",
+      "chunk_index": 0,
+      "chunk_text": "Ubuntu / Linux Essential Command Guide for Developers\nThis document is a no-nonsense, practical command reference for Ubuntu and Linux users. If you touch\nservers, containers, code, or terminals, these commands are mandatory knowledge.\n1. File & Folder Management\npwd \u2192 Show current directory\nls \u2192 List files\nls -la \u2192 List all files with permissions\ncd folder_name \u2192 Enter folder\ncd .. \u2192 Go back one level\ncd ~ \u2192 Go to home directory\nmkdir folder \u2192 Create folder\nmkdir -p parent/child/grandchild \u2192 Create nested folders\ntouch file.txt \u2192 Create empty file\ncp file.txt dest/ \u2192 Copy file\ncp -r folder dest/ \u2192 Copy folder\nmv file.txt newname.txt \u2192 Rename file\nmv file.txt folder/ \u2192 Move file\nrm file.txt \u2192 Delete file\nrm -r folder \u2192 Delete folder\nrm -rf folder \u2192 Force delete (danger)\nstat file.txt \u2192 File details\ntree \u2192 Folder structure view\n2. Locate Files & Folders\nfind / -name file.txt \u2192 Search file system\nfind . -type f \u2192 Find files\nfind . -type d \u2192 Find folders\nlocate file.txt \u2192 Fast search (needs updatedb)\nupdatedb \u2192 Update locate database\nwhich python \u2192 Command binary location\nwhereis python \u2192 Binary, source, man page\n3. File Viewing & Editing\ncat file.txt \u2192 View file\nless file.txt \u2192 Scroll view\nhead file.txt \u2192 First 10 lines\ntail file.txt \u2192 Last 10 lines\ntail -f log.txt \u2192 Live log view\nnano file.txt \u2192 Edit (beginner)\nvim file.txt \u2192 Edit (pro)\ncode . \u2192 Open VS Code\n4. Permissions & Ownership\nchmod 755 file.sh \u2192 Change permissions\nchmod +x script.sh \u2192 Make executable\nchown user:user file.txt \u2192 Change owner\nls -l \u2192 View permissions\n5. Package Management (APT)\nsudo apt update \u2192 Refresh repo\nsudo apt upgrade \u2192 Upgrade system\nsudo apt install git \u2192 Install package",
+      "source": "/home/debanshu-gig/Downloads/Ubuntu_Linux_Developer_Command_Guide.pdf",
+      "created_at": "2026-02-05T10:54:51.371994"
+    },
+    "a4dbea4f-4826-4aa8-b0b9-16a24e03b922": {
+      "chunk_id": "a4dbea4f-4826-4aa8-b0b9-16a24e03b922",
+      "memory_id": "11e603f2-9508-4207-abf2-9d704d8ce7d6",
+      "chunk_index": 1,
+      "chunk_text": "sudo apt remove git \u2192 Remove package\nsudo apt purge git \u2192 Remove config too\napt search nginx \u2192 Search package\napt show nginx \u2192 Package info\nsudo apt autoremove \u2192 Cleanup\n6. Install .deb File (Downloaded from Website)\ncd ~/Downloads\nsudo dpkg -i app.deb \u2192 Install deb\nsudo apt -f install \u2192 Fix dependencies\nsudo dpkg -r app \u2192 Remove deb app\n7. System Info & Monitoring\nuname -a \u2192 Kernel info\nlsb_release -a \u2192 OS info\ndf -h \u2192 Disk usage\ndu -sh folder \u2192 Folder size\nfree -h \u2192 RAM usage\ntop / htop \u2192 Process monitor\nuptime \u2192 System runtime\nwhoami \u2192 Current user\n8. Networking\nip a \u2192 Network interfaces\nip route \u2192 Routing table\nping google.com \u2192 Test internet\ncurl url \u2192 API call\nwget url \u2192 Download file\nss -tuln \u2192 Open ports\nnetstat -tuln \u2192 Legacy port list\n9. Process Management\nps aux \u2192 All processes\nkill PID \u2192 Kill process\nkill -9 PID \u2192 Force kill\npkill process \u2192 Kill by name\nbg / fg \u2192 Background / foreground\n10. Environment & Shell\nenv \u2192 Environment variables\nexport VAR=value \u2192 Set variable\necho $VAR \u2192 Read variable\nhistory \u2192 Command history\nclear \u2192 Clear terminal\nalias ll='ls -la' \u2192 Shortcut\nsource ~/.bashrc \u2192 Reload config\n11. Compression & Archives\ntar -czvf file.tar.gz folder/\ntar -xzvf file.tar.gz\nzip -r file.zip folder/\nunzip file.zip\n12. Disk & Mount\nlsblk \u2192 Disk list",
+      "source": "/home/debanshu-gig/Downloads/Ubuntu_Linux_Developer_Command_Guide.pdf",
+      "created_at": "2026-02-05T10:54:51.371994"
+    },
+    "edace11b-9da2-4d76-8bd2-6112c977aa1a": {
+      "chunk_id": "edace11b-9da2-4d76-8bd2-6112c977aa1a",
+      "memory_id": "11e603f2-9508-4207-abf2-9d704d8ce7d6",
+      "chunk_index": 2,
+      "chunk_text": "mount \u2192 Mounted disks\numount /dev/sda1\n13. Git (Developer Mandatory)\ngit clone repo_url\ngit status\ngit add .\ngit commit -m 'msg'\ngit push\ngit pull\ngit branch\ngit checkout branch\n14. Docker (Modern Dev Mandatory)\ndocker --version\ndocker ps\ndocker ps -a\ndocker images\ndocker run image\ndocker stop container\ndocker rm container\ndocker rmi image\ndocker-compose up -d\n15. Power Commands (Danger Zone)\nsudo su \u2192 Root shell\nshutdown now\nreboot\nhistory -c \u2192 Clear history\nrm -rf / \u2192 NEVER RUN\nFinal Note\nIf you don\u2019t know these commands, you are not a serious Linux developer yet. Master these and Linux\nbecomes a weapon, not an obstacle.",
+      "source": "/home/debanshu-gig/Downloads/Ubuntu_Linux_Developer_Command_Guide.pdf",
+      "created_at": "2026-02-05T10:54:51.371994"
+    },
+    "dde99518-098a-4266-9da8-5b2d8bd21302": {
+      "chunk_id": "dde99518-098a-4266-9da8-5b2d8bd21302",
+      "memory_id": "0bd59e17-f6b6-45db-9ec3-26fa74b3f080",
+      "chunk_index": 0,
+      "chunk_text": "My food delivery startup failed because delivery costs were too high\nand logistics delays caused customer dissatisfaction.",
+      "source": "data/sample_document.txt",
+      "created_at": "2026-02-05T10:54:51.372039"
+    },
+    "6c547e54-92af-4266-b482-c1d74933e752": {
+      "chunk_id": "6c547e54-92af-4266-b482-c1d74933e752",
+      "memory_id": "e58995d5-061f-400c-ae04-6120846b75ed",
+      "chunk_index": 0,
+      "chunk_text": "My food delivery startup failed because delivery costs were too high\nand logistics delays caused customer dissatisfaction.",
+      "source": "data/sample_document.txt",
+      "created_at": "2026-02-05T10:54:51.372049"
+    },
+    "eb1965e0-8e9f-4d70-9c32-3d48a8323cf3": {
+      "chunk_id": "eb1965e0-8e9f-4d70-9c32-3d48a8323cf3",
+      "memory_id": "dea1d898-ecc8-49b4-adca-49b4403002f3",
+      "chunk_index": 0,
+      "chunk_text": "My food delivery startup failed because delivery costs were too high\nand logistics delays caused customer dissatisfaction.",
+      "source": "data/sample_document.txt",
+      "created_at": "2026-02-05T10:54:51.372058"
+    },
+    "f9da24bf-9b4f-4b67-9a25-a42873d77f6e": {
+      "chunk_id": "f9da24bf-9b4f-4b67-9a25-a42873d77f6e",
+      "memory_id": "118f2f88-b18b-456b-a2bd-c743f864328b",
+      "chunk_index": 0,
+      "chunk_text": "My food delivery startup failed because delivery costs were too high\nand logistics delays caused customer dissatisfaction.",
+      "source": "data/sample_document.txt",
+      "created_at": "2026-02-05T10:54:51.372066"
+    },
+    "033ab877-98c6-4ea4-bdd3-5cc206a67a7e": {
+      "chunk_id": "033ab877-98c6-4ea4-bdd3-5cc206a67a7e",
+      "memory_id": "bd0adff7-2eff-4114-ac54-7792351b0596",
+      "chunk_index": 0,
+      "chunk_text": "My food delivery startup failed because delivery costs were too high\nand logistics delays caused customer dissatisfaction.",
+      "source": "data/sample_document.txt",
+      "created_at": "2026-02-05T10:54:51.372075"
+    },
+    "72b78ba4-3881-444e-839e-a02b3487c2b1": {
+      "chunk_id": "72b78ba4-3881-444e-839e-a02b3487c2b1",
+      "memory_id": "8b74f749-e527-4729-9f0e-1321150727e7",
+      "chunk_index": 0,
+      "chunk_text": "My food delivery startup failed because delivery costs were too high\nand logistics delays caused customer dissatisfaction.",
+      "source": "data/sample_document.txt",
+      "created_at": "2026-02-05T10:54:51.372084"
+    },
+    "d4e28da4-c728-4e71-8fc7-33835ad27f96": {
+      "chunk_id": "d4e28da4-c728-4e71-8fc7-33835ad27f96",
+      "memory_id": "e9641cdb-6af0-4e44-ba87-9ec714e2c711",
+      "chunk_index": 0,
+      "chunk_text": "My food delivery startup failed because delivery costs were too high\nand logistics delays caused customer dissatisfaction.",
+      "source": "data/sample_document.txt",
+      "created_at": "2026-02-05T10:54:51.372092"
+    },
+    "7cf44679-ca51-45f5-a89a-b713f284f3d6": {
+      "chunk_id": "7cf44679-ca51-45f5-a89a-b713f284f3d6",
+      "memory_id": "c25330d9-876c-4352-af99-dd1de2cf02da",
+      "chunk_index": 0,
+      "chunk_text": "My food delivery startup failed because delivery costs were too high\nand logistics delays caused customer dissatisfaction.",
+      "source": "data/sample_document.txt",
+      "created_at": "2026-02-05T10:54:51.372101"
     }
   }
 }
