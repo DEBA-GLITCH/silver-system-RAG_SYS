@@ -1,6 +1,8 @@
 from embeddings.embedder import SimpleEmbedder
 from retrieval.retriever import Retriever
 from llm.answer_generator import AnswerGenerator
+from dotenv import load_dotenv
+import os
 
 embedder = SimpleEmbedder(dim=256)
 
