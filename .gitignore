@@ -6,3 +6,5 @@ __pycache__/
 .idea/
 .vscode/
 *.log/
+# Local testing utilities (not production code)
+testing_files/

@@ -44,10 +44,14 @@ class FileIngestor:
             mem_type="file",
         )
 
-        # 3️⃣ Rebuild ALL chunks deterministically
+        # 3️⃣ Clear old chunks (derived data)
+        self.chunker.save_chunks([])
+
+        # 4️⃣ Rebuild ALL chunks deterministically
         chunks = self.chunker.build_chunks()
         self.chunker.save_chunks(chunks)
 
+        
         # 4️⃣ Persist chunks + embeddings (immediate-write store)
         for chunk in chunks:
             self.metadata_store.add_chunk(chunk)
